@@ -1,0 +1,6 @@
+LIBRARY "IGAContainer"
+EXPORTS	
+	
+	CloseIGAWindow	@2
+	ShowIGAWindow	@3
+    UpdateRes       @4

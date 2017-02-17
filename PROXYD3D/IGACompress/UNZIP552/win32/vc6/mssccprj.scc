@@ -1,0 +1,13 @@
+SCC = This is a Source Code Control file
+
+[funzip.dsp]
+SCC_Aux_Path = "\\192.168.1.135\vss\"
+SCC_Project_Name = "$/工程/Client/Engine/Compress/IGACompress/UNZIP552/win32/vc6", LKEAAAAA
+
+[unzip.dsp]
+SCC_Aux_Path = "\\192.168.1.135\vss\"
+SCC_Project_Name = "$/工程/Client/Engine/Compress/IGACompress/UNZIP552/win32/vc6", LKEAAAAA
+
+[unzipsfx.dsp]
+SCC_Aux_Path = "\\192.168.1.135\vss\"
+SCC_Project_Name = "$/工程/Client/Engine/Compress/IGACompress/UNZIP552/win32/vc6", LKEAAAAA

@@ -1,0 +1,250 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+// Generated Help ID header file
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "resource.hm"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""res\\CompressFile.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""     // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\CompressFile.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1             BITMAP                  "res\\surface.bmp"
+IDB_FORM_BACKGROUND     BITMAP                  "res\\FORM_BACKGROUND.bmp"
+IDB_BUTTON_NORMAL       BITMAP                  "res\\MACOS_BUTTON_NOMAL.bmp"
+IDB_BUTTON_MOUSEDOWN    BITMAP                  "res\\MACOS_BUTTON_MOUSEDOWN.bmp"
+IDB_BUTTON_MOUSEON      BITMAP                  "res\\MACOS_BUTTON_MOUSEON.bmp"
+IDB_BACK_SURFACE        BITMAP                  "res\\BACK_SURFACE.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_HANDCUE             CURSOR                  "res\\Hand.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DLL
+//
+
+IDR_DLLD3D8             DLL                     "res\\d3d8.DLL"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// IAF
+//
+
+IDR_IAFEMMOAZ           IAF                     "res\\emmoaz.iaf"
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 187, 62
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "HS5_v0.21_Vista_Patch"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,17,19,20,20
+    LTEXT           "HS5_v0.21_Vista_Patch, Version 1.0",IDC_STATIC,42,14,127,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2008",IDC_STATIC,42,26,114,8
+    DEFPUSHBUTTON   "OK",IDOK,116,41,50,14,WS_GROUP
+END
+
+IDD_COMPRESSFILE_DIALOG DIALOGEX 0, 0, 298, 225
+STYLE DS_ABSALIGN | DS_SETFONT | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    CONTROL         "Close",IDOK,"Button",BS_OWNERDRAW | WS_TABSTOP,147,163,103,14
+    CONTROL         "Patch",IDC_BTN_COMPRESS,"Button",BS_OWNERDRAW | WS_TABSTOP,147,137,103,14
+    GROUPBOX        "",IDC_STC_PATCH,130,38,136,63,BS_NOTIFY
+    LTEXT           "HighStreet 5 Vista Patch -- For players using Windows Vista who have encountered problems updating to v0.21. Click on ""Patch"" to continue patching HighStreet 5",IDC_STC_INFO,145,49,110,47
+    CONTROL         138,IDC_STATIC,"Static",SS_BITMAP | SS_CENTERIMAGE | SS_RIGHTJUST | SS_REALSIZEIMAGE | NOT WS_VISIBLE | WS_DISABLED | WS_GROUP | WS_TABSTOP,6,183,61,31,WS_EX_TRANSPARENT,HIDC_STATIC
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "00090000"
+        BEGIN
+            VALUE "CompanyName", "HighStreet 5"
+            VALUE "FileDescription", "HighStreet 5"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "HighStreet 5"
+            VALUE "LegalCopyright", "HighStreet 5.  All rights reserved."
+            VALUE "OriginalFilename", "HighStreet 5"
+            VALUE "ProductName", "HighStreet 5"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x9, 0
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        RIGHTMARGIN, 170
+        BOTTOMMARGIN, 55
+    END
+
+    IDD_COMPRESSFILE_DIALOG, DIALOG
+    BEGIN
+        RIGHTMARGIN, 291
+        BOTTOMMARGIN, 214
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About CompressFile..."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#include "res\CompressFile.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"     // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DemoFlash", "..\DemoFlash\DemoFlash.vcproj", "{5394F1A3-AF6E-4C9D-B169-392037312AE7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test", "Test.vcproj", "{BF89BDE0-DEE9-44C0-8F6B-B5E27205A63C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5394F1A3-AF6E-4C9D-B169-392037312AE7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5394F1A3-AF6E-4C9D-B169-392037312AE7}.Debug|Win32.Build.0 = Debug|Win32
+		{5394F1A3-AF6E-4C9D-B169-392037312AE7}.Release|Win32.ActiveCfg = Release|Win32
+		{5394F1A3-AF6E-4C9D-B169-392037312AE7}.Release|Win32.Build.0 = Release|Win32
+		{BF89BDE0-DEE9-44C0-8F6B-B5E27205A63C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BF89BDE0-DEE9-44C0-8F6B-B5E27205A63C}.Debug|Win32.Build.0 = Debug|Win32
+		{BF89BDE0-DEE9-44C0-8F6B-B5E27205A63C}.Release|Win32.ActiveCfg = Release|Win32
+		{BF89BDE0-DEE9-44C0-8F6B-B5E27205A63C}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

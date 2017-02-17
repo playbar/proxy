@@ -1,0 +1,10 @@
+LIBRARY	"IGACore"
+
+EXPORTS
+	IGAStartup @1
+	IGAShutdown @2
+	GetD3DhInstance @3
+	CheckFullscreen_1 @4
+	ValidatePixelShader_1 @5
+	ValidateVertexShader_1 @6
+	DebugSetMute @7

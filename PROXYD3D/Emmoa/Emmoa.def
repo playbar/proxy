@@ -1,0 +1,5 @@
+LIBRARY "AdShell"
+EXPORTS	
+	IGAStartup	@1
+	IGAStartup2	@2
+	IGAStartup3 @3

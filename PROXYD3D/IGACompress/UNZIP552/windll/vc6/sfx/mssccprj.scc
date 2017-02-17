@@ -1,0 +1,9 @@
+SCC = This is a Source Code Control file
+
+[SFXWiz32.dsp]
+SCC_Aux_Path = "\\192.168.1.135\vss\"
+SCC_Project_Name = "$/工程/Client/Engine/Compress/IGACompress/UNZIP552/windll/vc6/sfx", DVEAAAAA
+
+[unzsfx32.dsp]
+SCC_Aux_Path = "\\192.168.1.135\vss\"
+SCC_Project_Name = "$/工程/Client/Engine/Compress/IGACompress/UNZIP552/windll/vc6/sfx", DVEAAAAA

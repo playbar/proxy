@@ -1,0 +1,7 @@
+1、把ServerULog.dll和LogFile.ini放在serverU主目录下
+
+2、往ServUDaemon.ini文件中添加
+
+[EXTERNAL]
+EventHookDLL1=ServerULog.dll
+ClientCheckDLL1=ServerULog.dll

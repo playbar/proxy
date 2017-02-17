@@ -1,0 +1,4 @@
+LIBRARY	"DInputProxy"
+
+EXPORTS
+	DirectInput8Create

@@ -1,0 +1,9 @@
+; IE_DDS_Control.def : Declares the module parameters.
+
+LIBRARY      "IE_DDS_Control.OCX"
+
+EXPORTS
+	DllCanUnloadNow     PRIVATE
+	DllGetClassObject   PRIVATE
+	DllRegisterServer   PRIVATE
+	DllUnregisterServer PRIVATE

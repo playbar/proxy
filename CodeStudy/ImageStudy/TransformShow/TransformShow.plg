@@ -1,0 +1,75 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: TransformShow - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/TransformShow.res" /d "_DEBUG" /d "_AFXDLL" "D:\code\Source\TransformShow\TransformShow.rc"" 
+Creating temporary file "C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSPB.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/TransformShow.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\code\Source\TransformShow\CanvasDlg.cpp"
+"D:\code\Source\TransformShow\ChildFrm.cpp"
+"D:\code\Source\TransformShow\CqOctree.cpp"
+"D:\code\Source\TransformShow\Dib.cpp"
+"D:\code\Source\TransformShow\dibapi.cpp"
+"D:\code\Source\TransformShow\MainFrm.cpp"
+"D:\code\Source\TransformShow\RotateAngle.cpp"
+"D:\code\Source\TransformShow\ScaleDlg.cpp"
+"D:\code\Source\TransformShow\TransformShow.cpp"
+"D:\code\Source\TransformShow\TransformShowDoc.cpp"
+"D:\code\Source\TransformShow\TransformShowView.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSPB.tmp" 
+Creating temporary file "C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSPC.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/TransformShow.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\code\Source\TransformShow\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSPC.tmp" 
+Creating temporary file "C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSPD.tmp" with contents
+[
+winmm.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/TransformShow.pdb" /debug /machine:I386 /out:"Debug/TransformShow.exe" /pdbtype:sept 
+.\Debug\CanvasDlg.obj
+.\Debug\ChildFrm.obj
+.\Debug\CqOctree.obj
+.\Debug\Dib.obj
+.\Debug\dibapi.obj
+.\Debug\MainFrm.obj
+.\Debug\RotateAngle.obj
+.\Debug\ScaleDlg.obj
+.\Debug\StdAfx.obj
+.\Debug\TransformShow.obj
+.\Debug\TransformShowDoc.obj
+.\Debug\TransformShowView.obj
+.\Debug\TransformShow.res
+]
+Creating command line "link.exe @C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSPD.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+CanvasDlg.cpp
+ChildFrm.cpp
+CqOctree.cpp
+Dib.cpp
+dibapi.cpp
+MainFrm.cpp
+RotateAngle.cpp
+ScaleDlg.cpp
+TransformShow.cpp
+TransformShowDoc.cpp
+TransformShowView.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+TransformShow.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

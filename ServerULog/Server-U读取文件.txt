@@ -1,0 +1,39 @@
+#include <windows.h>
+#include <stdio.h>
+
+class CDownFileInfo
+{
+public:
+	CDownFileInfo():m_bSuccess(false),m_fDownSpeed(0)
+	{
+		memset(&m_st, 0, sizeof(SYSTEMTIME));
+		memset(m_szFileName, 0, sizeof(m_szFileName));
+		memset(m_szIp, 0, sizeof(m_szIp));
+	}
+	~CDownFileInfo(){}
+public:
+	SYSTEMTIME m_st;				// 系统当前时间
+	char   m_szFileName[MAX_PATH]; //下载文件名
+	float  m_fDownSpeed;			//下载速度
+	char   m_szIp[16];				// 客户端IP
+	bool   m_bSuccess;				// 是否成功下载
+
+} ;
+
+void main()
+{
+	CDownFileInfo FileInfo;
+	memset(&FileInfo, 0, sizeof(FileInfo));
+
+	HANDLE hFile = CreateFile("日志文件名", GENERIC_READ, FILE_SHARE_READ,NULL,OPEN_EXISTING,FILE_FLAG_BACKUP_SEMANTICS,NULL);
+	if(hFile == INVALID_HANDLE_VALUE)
+	{
+		CloseHandle(hFile);
+		return ;
+	}
+	DWORD dwReadBytes = 0;
+	ReadFile(hFile, (LPVOID)&FileInfo, sizeof(FileInfo), &dwReadBytes, NULL );
+	CloseHandle(hFile);
+
+}
+

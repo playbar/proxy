@@ -1,0 +1,9 @@
+LIBRARY	IGA3D
+
+EXPORTS
+	IGA3DInit		@1
+	IGA3DDestory	@2
+	IGA3DGetMatrixData	@3
+	IGA3DRender		@4
+	SetFristDraw	@5
+	SetUpdate		@6

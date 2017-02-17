@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FtpLog", "FtpLog\FtpLog.vcproj", "{AD88A7D5-EE66-466E-9430-CD5BD4D72D7F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ServerULog", "ServerULog\ServerULog.vcproj", "{8B9C4D98-DF69-4265-9C26-D53CE6E453B0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UnitTest", "UnitTest\UnitTest.vcproj", "{E3652756-8CE0-49E2-A6C1-CCC707B706B3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IGALogFileService", "IGALogFileService\IGALogFileService.vcproj", "{A157AAEC-EA31-467A-98E7-49A334787D1E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IGASSee", "IGASee\IGASSee.vcproj", "{A6DE530C-2FAE-46A6-AC57-B1EC695AC765}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ServerULogService", "ServerULogService\ServerULogService.vcproj", "{84CF8854-8482-491C-A9B3-AFB54653BC7B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ServerULogConfig", "ServerULogConfig\ServerULogConfig.vcproj", "{C45BC6DD-EFDC-4E6F-995B-EA86D7FE5806}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD88A7D5-EE66-466E-9430-CD5BD4D72D7F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AD88A7D5-EE66-466E-9430-CD5BD4D72D7F}.Debug|Win32.Build.0 = Debug|Win32
+		{AD88A7D5-EE66-466E-9430-CD5BD4D72D7F}.Release|Win32.ActiveCfg = Release|Win32
+		{AD88A7D5-EE66-466E-9430-CD5BD4D72D7F}.Release|Win32.Build.0 = Release|Win32
+		{8B9C4D98-DF69-4265-9C26-D53CE6E453B0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8B9C4D98-DF69-4265-9C26-D53CE6E453B0}.Debug|Win32.Build.0 = Debug|Win32
+		{8B9C4D98-DF69-4265-9C26-D53CE6E453B0}.Release|Win32.ActiveCfg = Release|Win32
+		{8B9C4D98-DF69-4265-9C26-D53CE6E453B0}.Release|Win32.Build.0 = Release|Win32
+		{E3652756-8CE0-49E2-A6C1-CCC707B706B3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E3652756-8CE0-49E2-A6C1-CCC707B706B3}.Debug|Win32.Build.0 = Debug|Win32
+		{E3652756-8CE0-49E2-A6C1-CCC707B706B3}.Release|Win32.ActiveCfg = Release|Win32
+		{E3652756-8CE0-49E2-A6C1-CCC707B706B3}.Release|Win32.Build.0 = Release|Win32
+		{A157AAEC-EA31-467A-98E7-49A334787D1E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A157AAEC-EA31-467A-98E7-49A334787D1E}.Debug|Win32.Build.0 = Debug|Win32
+		{A157AAEC-EA31-467A-98E7-49A334787D1E}.Release|Win32.ActiveCfg = Release|Win32
+		{A157AAEC-EA31-467A-98E7-49A334787D1E}.Release|Win32.Build.0 = Release|Win32
+		{A6DE530C-2FAE-46A6-AC57-B1EC695AC765}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A6DE530C-2FAE-46A6-AC57-B1EC695AC765}.Debug|Win32.Build.0 = Debug|Win32
+		{A6DE530C-2FAE-46A6-AC57-B1EC695AC765}.Release|Win32.ActiveCfg = Release|Win32
+		{A6DE530C-2FAE-46A6-AC57-B1EC695AC765}.Release|Win32.Build.0 = Release|Win32
+		{84CF8854-8482-491C-A9B3-AFB54653BC7B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{84CF8854-8482-491C-A9B3-AFB54653BC7B}.Debug|Win32.Build.0 = Debug|Win32
+		{84CF8854-8482-491C-A9B3-AFB54653BC7B}.Release|Win32.ActiveCfg = Release|Win32
+		{84CF8854-8482-491C-A9B3-AFB54653BC7B}.Release|Win32.Build.0 = Release|Win32
+		{C45BC6DD-EFDC-4E6F-995B-EA86D7FE5806}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C45BC6DD-EFDC-4E6F-995B-EA86D7FE5806}.Debug|Win32.Build.0 = Debug|Win32
+		{C45BC6DD-EFDC-4E6F-995B-EA86D7FE5806}.Release|Win32.ActiveCfg = Release|Win32
+		{C45BC6DD-EFDC-4E6F-995B-EA86D7FE5806}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,16 @@
+#pragma once
+#include <windows.h>
+
+#define MAX_FLX_ITEM 2
+
+struct FLX_ITEM_INFO
+{
+	DWORD FLX_ITEM1_ID;
+	DWORD FLX_ITEM1_NUM;
+	DWORD FLX_ITEM2_ID;
+	DWORD FLX_ITEM2_NUM;
+	DWORD FLX_ITEM3_ID;
+	DWORD FLX_ITEM3_NUM;
+};
+
+extern FLX_ITEM_INFO g_FlxItemInfo[MAX_FLX_ITEM];

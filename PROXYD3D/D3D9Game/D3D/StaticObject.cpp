@@ -1,0 +1,3 @@
+
+#include "StaticObject.h"
+

@@ -1,0 +1,20 @@
+LIBRARY	IMMHooker
+
+EXPORTS
+	ImeProcessKey
+	ImeConfigure
+	ImeConversionList
+	ImeDestroy
+	ImeEnumRegisterWord
+	ImeEscape
+	ImeGetRegisterWordStyle
+	ImeInquire
+	ImeRegisterWord
+	ImeSelect
+	ImeSetActiveContext
+	ImeSetCompositionString
+	ImeToAsciiEx
+	ImeUnregisterWord
+	NotifyIME
+
+

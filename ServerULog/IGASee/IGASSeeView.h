@@ -1,0 +1,49 @@
+// IGASSeeView.h : CIGASSeeView 类的接口
+//
+
+
+#pragma once
+
+
+class CIGASSeeView : public CView
+{
+protected: // 仅从序列化创建
+	CIGASSeeView();
+	DECLARE_DYNCREATE(CIGASSeeView)
+
+// 属性
+public:
+	CIGASSeeDoc* GetDocument() const;
+
+// 操作
+public:
+
+// 重写
+	public:
+	virtual void OnDraw(CDC* pDC);  // 重写以绘制该视图
+virtual BOOL PreCreateWindow(CREATESTRUCT& cs);
+protected:
+	virtual BOOL OnPreparePrinting(CPrintInfo* pInfo);
+	virtual void OnBeginPrinting(CDC* pDC, CPrintInfo* pInfo);
+	virtual void OnEndPrinting(CDC* pDC, CPrintInfo* pInfo);
+
+// 实现
+public:
+	virtual ~CIGASSeeView();
+#ifdef _DEBUG
+	virtual void AssertValid() const;
+	virtual void Dump(CDumpContext& dc) const;
+#endif
+
+protected:
+
+// 生成的消息映射函数
+protected:
+	DECLARE_MESSAGE_MAP()
+};
+
+#ifndef _DEBUG  // IGASSeeView.cpp 的调试版本
+inline CIGASSeeDoc* CIGASSeeView::GetDocument() const
+   { return reinterpret_cast<CIGASSeeDoc*>(m_pDocument); }
+#endif
+

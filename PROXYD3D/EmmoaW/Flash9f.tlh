@@ -1,0 +1,640 @@
+// Created by Microsoft (R) C/C++ Compiler Version 12.00.8447.0 (b8606f58).
+//
+// Flash9f.tlh
+//
+// C++ source equivalent of Win32 type library C:\WINDOWS\system32\Macromed\Flash\Flash9f.ocx
+// compiler-generated file created 07/04/08 at 09:45:59 - DO NOT EDIT!
+
+#pragma once
+#pragma pack(push, 8)
+
+#include <comdef.h>
+
+namespace IGAFlash {
+
+//
+// Forward references and typedefs
+//
+
+struct __declspec(uuid("d27cdb6c-ae6d-11cf-96b8-444553540000"))
+/* dual interface */ IShockwaveFlash;
+struct __declspec(uuid("d27cdb6d-ae6d-11cf-96b8-444553540000"))
+/* dispinterface */ _IShockwaveFlashEvents;
+struct /* coclass */ ShockwaveFlash;
+struct __declspec(uuid("d27cdb70-ae6d-11cf-96b8-444553540000"))
+/* interface */ IFlashFactory;
+struct __declspec(uuid("d27cdb72-ae6d-11cf-96b8-444553540000"))
+/* interface */ IFlashObjectInterface;
+struct __declspec(uuid("a6ef9860-c720-11d0-9337-00a0c90dcaa9"))
+/* interface */ IDispatchEx;
+struct __declspec(uuid("6d5140c1-7436-11ce-8034-00aa006009fa"))
+/* interface */ IServiceProvider;
+struct /* coclass */ FlashObjectInterface;
+
+//
+// Smart pointer typedef declarations
+//
+
+_COM_SMARTPTR_TYPEDEF(IShockwaveFlash, __uuidof(IShockwaveFlash));
+_COM_SMARTPTR_TYPEDEF(_IShockwaveFlashEvents, __uuidof(IDispatch));
+_COM_SMARTPTR_TYPEDEF(IFlashFactory, __uuidof(IFlashFactory));
+_COM_SMARTPTR_TYPEDEF(IDispatchEx, __uuidof(IDispatchEx));
+_COM_SMARTPTR_TYPEDEF(IFlashObjectInterface, __uuidof(IFlashObjectInterface));
+_COM_SMARTPTR_TYPEDEF(IServiceProvider, __uuidof(IServiceProvider));
+
+//
+// Type library items
+//
+
+struct __declspec(uuid("d27cdb6c-ae6d-11cf-96b8-444553540000"))
+IShockwaveFlash : IDispatch
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetScaleMode,put=PutScaleMode))
+    int ScaleMode;
+    __declspec(property(get=GetAlignMode,put=PutAlignMode))
+    int AlignMode;
+    __declspec(property(get=GetBackgroundColor,put=PutBackgroundColor))
+    long BackgroundColor;
+    __declspec(property(get=GetTotalFrames))
+    long TotalFrames;
+    __declspec(property(get=GetPlaying,put=PutPlaying))
+    VARIANT_BOOL Playing;
+    __declspec(property(get=GetMovieData,put=PutMovieData))
+    _bstr_t MovieData;
+    __declspec(property(get=GetInlineData,put=PutInlineData))
+    IUnknownPtr InlineData;
+    __declspec(property(get=GetSeamlessTabbing,put=PutSeamlessTabbing))
+    VARIANT_BOOL SeamlessTabbing;
+    __declspec(property(get=GetWMode,put=PutWMode))
+    _bstr_t WMode;
+    __declspec(property(get=GetSAlign,put=PutSAlign))
+    _bstr_t SAlign;
+    __declspec(property(get=GetMenu,put=PutMenu))
+    VARIANT_BOOL Menu;
+    __declspec(property(get=GetBase,put=PutBase))
+    _bstr_t Base;
+    __declspec(property(get=GetScale,put=PutScale))
+    _bstr_t Scale;
+    __declspec(property(get=GetDeviceFont,put=PutDeviceFont))
+    VARIANT_BOOL DeviceFont;
+    __declspec(property(get=GetEmbedMovie,put=PutEmbedMovie))
+    VARIANT_BOOL EmbedMovie;
+    __declspec(property(get=GetBGColor,put=PutBGColor))
+    _bstr_t BGColor;
+    __declspec(property(get=GetQuality2,put=PutQuality2))
+    _bstr_t Quality2;
+    __declspec(property(get=GetProfile,put=PutProfile))
+    VARIANT_BOOL Profile;
+    __declspec(property(get=GetProfileAddress,put=PutProfileAddress))
+    _bstr_t ProfileAddress;
+    __declspec(property(get=GetProfilePort,put=PutProfilePort))
+    long ProfilePort;
+    __declspec(property(get=GetAllowNetworking,put=PutAllowNetworking))
+    _bstr_t AllowNetworking;
+    __declspec(property(get=GetAllowFullScreen,put=PutAllowFullScreen))
+    _bstr_t AllowFullScreen;
+    __declspec(property(get=GetReadyState))
+    long ReadyState;
+    __declspec(property(get=GetSWRemote,put=PutSWRemote))
+    _bstr_t SWRemote;
+    __declspec(property(get=GetMovie,put=PutMovie))
+    _bstr_t Movie;
+    __declspec(property(get=GetQuality,put=PutQuality))
+    int Quality;
+    __declspec(property(get=GetLoop,put=PutLoop))
+    VARIANT_BOOL Loop;
+    __declspec(property(get=GetFrameNum,put=PutFrameNum))
+    long FrameNum;
+    __declspec(property(get=GetFlashVars,put=PutFlashVars))
+    _bstr_t FlashVars;
+    __declspec(property(get=GetAllowScriptAccess,put=PutAllowScriptAccess))
+    _bstr_t AllowScriptAccess;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    long GetReadyState ( );
+    long GetTotalFrames ( );
+    VARIANT_BOOL GetPlaying ( );
+    void PutPlaying (
+        VARIANT_BOOL pVal );
+    int GetQuality ( );
+    void PutQuality (
+        int pVal );
+    int GetScaleMode ( );
+    void PutScaleMode (
+        int pVal );
+    int GetAlignMode ( );
+    void PutAlignMode (
+        int pVal );
+    long GetBackgroundColor ( );
+    void PutBackgroundColor (
+        long pVal );
+    VARIANT_BOOL GetLoop ( );
+    void PutLoop (
+        VARIANT_BOOL pVal );
+    _bstr_t GetMovie ( );
+    void PutMovie (
+        _bstr_t pVal );
+    long GetFrameNum ( );
+    void PutFrameNum (
+        long pVal );
+    HRESULT SetZoomRect (
+        long left,
+        long top,
+        long right,
+        long bottom );
+    HRESULT Zoom (
+        int factor );
+    HRESULT Pan (
+        long x,
+        long y,
+        int mode );
+    HRESULT Play ( );
+    HRESULT Stop ( );
+    HRESULT Back ( );
+    HRESULT Forward ( );
+    HRESULT Rewind ( );
+    HRESULT StopPlay ( );
+    HRESULT GotoFrame (
+        long FrameNum );
+    long CurrentFrame ( );
+    VARIANT_BOOL IsPlaying ( );
+    long PercentLoaded ( );
+    VARIANT_BOOL FrameLoaded (
+        long FrameNum );
+    long FlashVersion ( );
+    _bstr_t GetWMode ( );
+    void PutWMode (
+        _bstr_t pVal );
+    _bstr_t GetSAlign ( );
+    void PutSAlign (
+        _bstr_t pVal );
+    VARIANT_BOOL GetMenu ( );
+    void PutMenu (
+        VARIANT_BOOL pVal );
+    _bstr_t GetBase ( );
+    void PutBase (
+        _bstr_t pVal );
+    _bstr_t GetScale ( );
+    void PutScale (
+        _bstr_t pVal );
+    VARIANT_BOOL GetDeviceFont ( );
+    void PutDeviceFont (
+        VARIANT_BOOL pVal );
+    VARIANT_BOOL GetEmbedMovie ( );
+    void PutEmbedMovie (
+        VARIANT_BOOL pVal );
+    _bstr_t GetBGColor ( );
+    void PutBGColor (
+        _bstr_t pVal );
+    _bstr_t GetQuality2 ( );
+    void PutQuality2 (
+        _bstr_t pVal );
+    HRESULT LoadMovie (
+        int layer,
+        _bstr_t url );
+    HRESULT TGotoFrame (
+        _bstr_t target,
+        long FrameNum );
+    HRESULT TGotoLabel (
+        _bstr_t target,
+        _bstr_t label );
+    long TCurrentFrame (
+        _bstr_t target );
+    _bstr_t TCurrentLabel (
+        _bstr_t target );
+    HRESULT TPlay (
+        _bstr_t target );
+    HRESULT TStopPlay (
+        _bstr_t target );
+    HRESULT SetVariable (
+        _bstr_t name,
+        _bstr_t value );
+    _bstr_t GetVariable (
+        _bstr_t name );
+    HRESULT TSetProperty (
+        _bstr_t target,
+        int property,
+        _bstr_t value );
+    _bstr_t TGetProperty (
+        _bstr_t target,
+        int property );
+    HRESULT TCallFrame (
+        _bstr_t target,
+        int FrameNum );
+    HRESULT TCallLabel (
+        _bstr_t target,
+        _bstr_t label );
+    HRESULT TSetPropertyNum (
+        _bstr_t target,
+        int property,
+        double value );
+    double TGetPropertyNum (
+        _bstr_t target,
+        int property );
+    double TGetPropertyAsNumber (
+        _bstr_t target,
+        int property );
+    _bstr_t GetSWRemote ( );
+    void PutSWRemote (
+        _bstr_t pVal );
+    _bstr_t GetFlashVars ( );
+    void PutFlashVars (
+        _bstr_t pVal );
+    _bstr_t GetAllowScriptAccess ( );
+    void PutAllowScriptAccess (
+        _bstr_t pVal );
+    _bstr_t GetMovieData ( );
+    void PutMovieData (
+        _bstr_t pVal );
+    IUnknownPtr GetInlineData ( );
+    void PutInlineData (
+        IUnknown * ppIUnknown );
+    VARIANT_BOOL GetSeamlessTabbing ( );
+    void PutSeamlessTabbing (
+        VARIANT_BOOL pVal );
+    HRESULT EnforceLocalSecurity ( );
+    VARIANT_BOOL GetProfile ( );
+    void PutProfile (
+        VARIANT_BOOL pVal );
+    _bstr_t GetProfileAddress ( );
+    void PutProfileAddress (
+        _bstr_t pVal );
+    long GetProfilePort ( );
+    void PutProfilePort (
+        long pVal );
+    _bstr_t CallFunction (
+        _bstr_t request );
+    HRESULT SetReturnValue (
+        _bstr_t returnValue );
+    HRESULT DisableLocalSecurity ( );
+    _bstr_t GetAllowNetworking ( );
+    void PutAllowNetworking (
+        _bstr_t pVal );
+    _bstr_t GetAllowFullScreen ( );
+    void PutAllowFullScreen (
+        _bstr_t pVal );
+
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall get_ReadyState (
+        long * pVal ) = 0;
+    virtual HRESULT __stdcall get_TotalFrames (
+        long * pVal ) = 0;
+    virtual HRESULT __stdcall get_Playing (
+        VARIANT_BOOL * pVal ) = 0;
+    virtual HRESULT __stdcall put_Playing (
+        VARIANT_BOOL pVal ) = 0;
+    virtual HRESULT __stdcall get_Quality (
+        int * pVal ) = 0;
+    virtual HRESULT __stdcall put_Quality (
+        int pVal ) = 0;
+    virtual HRESULT __stdcall get_ScaleMode (
+        int * pVal ) = 0;
+    virtual HRESULT __stdcall put_ScaleMode (
+        int pVal ) = 0;
+    virtual HRESULT __stdcall get_AlignMode (
+        int * pVal ) = 0;
+    virtual HRESULT __stdcall put_AlignMode (
+        int pVal ) = 0;
+    virtual HRESULT __stdcall get_BackgroundColor (
+        long * pVal ) = 0;
+    virtual HRESULT __stdcall put_BackgroundColor (
+        long pVal ) = 0;
+    virtual HRESULT __stdcall get_Loop (
+        VARIANT_BOOL * pVal ) = 0;
+    virtual HRESULT __stdcall put_Loop (
+        VARIANT_BOOL pVal ) = 0;
+    virtual HRESULT __stdcall get_Movie (
+        BSTR * pVal ) = 0;
+    virtual HRESULT __stdcall put_Movie (
+        BSTR pVal ) = 0;
+    virtual HRESULT __stdcall get_FrameNum (
+        long * pVal ) = 0;
+    virtual HRESULT __stdcall put_FrameNum (
+        long pVal ) = 0;
+    virtual HRESULT __stdcall raw_SetZoomRect (
+        long left,
+        long top,
+        long right,
+        long bottom ) = 0;
+    virtual HRESULT __stdcall raw_Zoom (
+        int factor ) = 0;
+    virtual HRESULT __stdcall raw_Pan (
+        long x,
+        long y,
+        int mode ) = 0;
+    virtual HRESULT __stdcall raw_Play ( ) = 0;
+    virtual HRESULT __stdcall raw_Stop ( ) = 0;
+    virtual HRESULT __stdcall raw_Back ( ) = 0;
+    virtual HRESULT __stdcall raw_Forward ( ) = 0;
+    virtual HRESULT __stdcall raw_Rewind ( ) = 0;
+    virtual HRESULT __stdcall raw_StopPlay ( ) = 0;
+    virtual HRESULT __stdcall raw_GotoFrame (
+        long FrameNum ) = 0;
+    virtual HRESULT __stdcall raw_CurrentFrame (
+        long * FrameNum ) = 0;
+    virtual HRESULT __stdcall raw_IsPlaying (
+        VARIANT_BOOL * Playing ) = 0;
+    virtual HRESULT __stdcall raw_PercentLoaded (
+        long * percent ) = 0;
+    virtual HRESULT __stdcall raw_FrameLoaded (
+        long FrameNum,
+        VARIANT_BOOL * loaded ) = 0;
+    virtual HRESULT __stdcall raw_FlashVersion (
+        long * version ) = 0;
+    virtual HRESULT __stdcall get_WMode (
+        BSTR * pVal ) = 0;
+    virtual HRESULT __stdcall put_WMode (
+        BSTR pVal ) = 0;
+    virtual HRESULT __stdcall get_SAlign (
+        BSTR * pVal ) = 0;
+    virtual HRESULT __stdcall put_SAlign (
+        BSTR pVal ) = 0;
+    virtual HRESULT __stdcall get_Menu (
+        VARIANT_BOOL * pVal ) = 0;
+    virtual HRESULT __stdcall put_Menu (
+        VARIANT_BOOL pVal ) = 0;
+    virtual HRESULT __stdcall get_Base (
+        BSTR * pVal ) = 0;
+    virtual HRESULT __stdcall put_Base (
+        BSTR pVal ) = 0;
+    virtual HRESULT __stdcall get_Scale (
+        BSTR * pVal ) = 0;
+    virtual HRESULT __stdcall put_Scale (
+        BSTR pVal ) = 0;
+    virtual HRESULT __stdcall get_DeviceFont (
+        VARIANT_BOOL * pVal ) = 0;
+    virtual HRESULT __stdcall put_DeviceFont (
+        VARIANT_BOOL pVal ) = 0;
+    virtual HRESULT __stdcall get_EmbedMovie (
+        VARIANT_BOOL * pVal ) = 0;
+    virtual HRESULT __stdcall put_EmbedMovie (
+        VARIANT_BOOL pVal ) = 0;
+    virtual HRESULT __stdcall get_BGColor (
+        BSTR * pVal ) = 0;
+    virtual HRESULT __stdcall put_BGColor (
+        BSTR pVal ) = 0;
+    virtual HRESULT __stdcall get_Quality2 (
+        BSTR * pVal ) = 0;
+    virtual HRESULT __stdcall put_Quality2 (
+        BSTR pVal ) = 0;
+    virtual HRESULT __stdcall raw_LoadMovie (
+        int layer,
+        BSTR url ) = 0;
+    virtual HRESULT __stdcall raw_TGotoFrame (
+        BSTR target,
+        long FrameNum ) = 0;
+    virtual HRESULT __stdcall raw_TGotoLabel (
+        BSTR target,
+        BSTR label ) = 0;
+    virtual HRESULT __stdcall raw_TCurrentFrame (
+        BSTR target,
+        long * FrameNum ) = 0;
+    virtual HRESULT __stdcall raw_TCurrentLabel (
+        BSTR target,
+        BSTR * pVal ) = 0;
+    virtual HRESULT __stdcall raw_TPlay (
+        BSTR target ) = 0;
+    virtual HRESULT __stdcall raw_TStopPlay (
+        BSTR target ) = 0;
+    virtual HRESULT __stdcall raw_SetVariable (
+        BSTR name,
+        BSTR value ) = 0;
+    virtual HRESULT __stdcall raw_GetVariable (
+        BSTR name,
+        BSTR * pVal ) = 0;
+    virtual HRESULT __stdcall raw_TSetProperty (
+        BSTR target,
+        int property,
+        BSTR value ) = 0;
+    virtual HRESULT __stdcall raw_TGetProperty (
+        BSTR target,
+        int property,
+        BSTR * pVal ) = 0;
+    virtual HRESULT __stdcall raw_TCallFrame (
+        BSTR target,
+        int FrameNum ) = 0;
+    virtual HRESULT __stdcall raw_TCallLabel (
+        BSTR target,
+        BSTR label ) = 0;
+    virtual HRESULT __stdcall raw_TSetPropertyNum (
+        BSTR target,
+        int property,
+        double value ) = 0;
+    virtual HRESULT __stdcall raw_TGetPropertyNum (
+        BSTR target,
+        int property,
+        double * pVal ) = 0;
+    virtual HRESULT __stdcall raw_TGetPropertyAsNumber (
+        BSTR target,
+        int property,
+        double * pVal ) = 0;
+    virtual HRESULT __stdcall get_SWRemote (
+        BSTR * pVal ) = 0;
+    virtual HRESULT __stdcall put_SWRemote (
+        BSTR pVal ) = 0;
+    virtual HRESULT __stdcall get_FlashVars (
+        BSTR * pVal ) = 0;
+    virtual HRESULT __stdcall put_FlashVars (
+        BSTR pVal ) = 0;
+    virtual HRESULT __stdcall get_AllowScriptAccess (
+        BSTR * pVal ) = 0;
+    virtual HRESULT __stdcall put_AllowScriptAccess (
+        BSTR pVal ) = 0;
+    virtual HRESULT __stdcall get_MovieData (
+        BSTR * pVal ) = 0;
+    virtual HRESULT __stdcall put_MovieData (
+        BSTR pVal ) = 0;
+    virtual HRESULT __stdcall get_InlineData (
+        IUnknown * * ppIUnknown ) = 0;
+    virtual HRESULT __stdcall put_InlineData (
+        IUnknown * ppIUnknown ) = 0;
+    virtual HRESULT __stdcall get_SeamlessTabbing (
+        VARIANT_BOOL * pVal ) = 0;
+    virtual HRESULT __stdcall put_SeamlessTabbing (
+        VARIANT_BOOL pVal ) = 0;
+    virtual HRESULT __stdcall raw_EnforceLocalSecurity ( ) = 0;
+    virtual HRESULT __stdcall get_Profile (
+        VARIANT_BOOL * pVal ) = 0;
+    virtual HRESULT __stdcall put_Profile (
+        VARIANT_BOOL pVal ) = 0;
+    virtual HRESULT __stdcall get_ProfileAddress (
+        BSTR * pVal ) = 0;
+    virtual HRESULT __stdcall put_ProfileAddress (
+        BSTR pVal ) = 0;
+    virtual HRESULT __stdcall get_ProfilePort (
+        long * pVal ) = 0;
+    virtual HRESULT __stdcall put_ProfilePort (
+        long pVal ) = 0;
+    virtual HRESULT __stdcall raw_CallFunction (
+        BSTR request,
+        BSTR * response ) = 0;
+    virtual HRESULT __stdcall raw_SetReturnValue (
+        BSTR returnValue ) = 0;
+    virtual HRESULT __stdcall raw_DisableLocalSecurity ( ) = 0;
+    virtual HRESULT __stdcall get_AllowNetworking (
+        BSTR * pVal ) = 0;
+    virtual HRESULT __stdcall put_AllowNetworking (
+        BSTR pVal ) = 0;
+    virtual HRESULT __stdcall get_AllowFullScreen (
+        BSTR * pVal ) = 0;
+    virtual HRESULT __stdcall put_AllowFullScreen (
+        BSTR pVal ) = 0;
+};
+
+struct __declspec(uuid("d27cdb6d-ae6d-11cf-96b8-444553540000"))
+_IShockwaveFlashEvents : IDispatch
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    // Methods:
+    HRESULT OnReadyStateChange (
+        long newState );
+    HRESULT OnProgress (
+        long percentDone );
+    HRESULT FSCommand (
+        _bstr_t command,
+        _bstr_t args );
+    HRESULT FlashCall (
+        _bstr_t request );
+};
+
+struct __declspec(uuid("d27cdb6e-ae6d-11cf-96b8-444553540000"))
+ShockwaveFlash;
+    // [ default ] interface IShockwaveFlash
+    // [ default, source ] dispinterface _IShockwaveFlashEvents
+
+struct __declspec(uuid("d27cdb70-ae6d-11cf-96b8-444553540000"))
+IFlashFactory : IUnknown
+{};
+
+struct __declspec(uuid("a6ef9860-c720-11d0-9337-00a0c90dcaa9"))
+IDispatchEx : IDispatch
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    HRESULT GetDispID (
+        _bstr_t bstrName,
+        unsigned long grfdex,
+        long * pid );
+    HRESULT RemoteInvokeEx (
+        long id,
+        unsigned long lcid,
+        unsigned long dwFlags,
+        struct DISPPARAMS * pdp,
+        VARIANT * pvarRes,
+        struct EXCEPINFO * pei,
+        struct IServiceProvider * pspCaller,
+        unsigned int cvarRefArg,
+        unsigned int * rgiRefArg,
+        VARIANT * rgvarRefArg );
+    HRESULT DeleteMemberByName (
+        _bstr_t bstrName,
+        unsigned long grfdex );
+    HRESULT DeleteMemberByDispID (
+        long id );
+    HRESULT GetMemberProperties (
+        long id,
+        unsigned long grfdexFetch,
+        unsigned long * pgrfdex );
+    HRESULT GetMemberName (
+        long id,
+        BSTR * pbstrName );
+    HRESULT GetNextDispID (
+        unsigned long grfdex,
+        long id,
+        long * pid );
+    HRESULT GetNameSpaceParent (
+        IUnknown * * ppunk );
+
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall raw_GetDispID (
+        BSTR bstrName,
+        unsigned long grfdex,
+        long * pid ) = 0;
+    virtual HRESULT __stdcall raw_RemoteInvokeEx (
+        long id,
+        unsigned long lcid,
+        unsigned long dwFlags,
+        struct DISPPARAMS * pdp,
+        VARIANT * pvarRes,
+        struct EXCEPINFO * pei,
+        struct IServiceProvider * pspCaller,
+        unsigned int cvarRefArg,
+        unsigned int * rgiRefArg,
+        VARIANT * rgvarRefArg ) = 0;
+    virtual HRESULT __stdcall raw_DeleteMemberByName (
+        BSTR bstrName,
+        unsigned long grfdex ) = 0;
+    virtual HRESULT __stdcall raw_DeleteMemberByDispID (
+        long id ) = 0;
+    virtual HRESULT __stdcall raw_GetMemberProperties (
+        long id,
+        unsigned long grfdexFetch,
+        unsigned long * pgrfdex ) = 0;
+    virtual HRESULT __stdcall raw_GetMemberName (
+        long id,
+        BSTR * pbstrName ) = 0;
+    virtual HRESULT __stdcall raw_GetNextDispID (
+        unsigned long grfdex,
+        long id,
+        long * pid ) = 0;
+    virtual HRESULT __stdcall raw_GetNameSpaceParent (
+        IUnknown * * ppunk ) = 0;
+};
+
+struct __declspec(uuid("d27cdb72-ae6d-11cf-96b8-444553540000"))
+IFlashObjectInterface : IDispatchEx
+{};
+
+struct __declspec(uuid("6d5140c1-7436-11ce-8034-00aa006009fa"))
+IServiceProvider : IUnknown
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    HRESULT RemoteQueryService (
+        GUID * guidService,
+        GUID * riid,
+        IUnknown * * ppvObject );
+
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall raw_RemoteQueryService (
+        GUID * guidService,
+        GUID * riid,
+        IUnknown * * ppvObject ) = 0;
+};
+
+struct __declspec(uuid("d27cdb71-ae6d-11cf-96b8-444553540000"))
+FlashObjectInterface;
+    // [ default ] interface IFlashObjectInterface
+
+//
+// Wrapper method implementations
+//
+
+#include "Flash9f.tli"
+
+} // namespace IGAFlash
+
+#pragma pack(pop)

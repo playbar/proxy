@@ -1,0 +1,6 @@
+#ifndef  _COMPRESS_CONFIG_H
+#define  _COMPRESS_CONFIG_H
+
+
+
+#endif   //_COMPRESS_CONFIG_H

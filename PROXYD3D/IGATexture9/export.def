@@ -1,0 +1,11 @@
+LIBRARY	IGATexture9
+
+EXPORTS
+	;IGATextureInit		@1
+	;IGAGetTexture		@2
+	;IGATextureDestory	@3
+	;DrawPlay			@4
+	;PlayAVI				@5
+	;PlayFLASH			@6
+	;PausePlayer			@7
+	;StopPlayer			@8

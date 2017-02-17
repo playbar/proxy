@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ColorProcess", "ColorProcess.vcproj", "{E19CB566-8B73-4AF6-BEE4-C58CC19B1012}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{E19CB566-8B73-4AF6-BEE4-C58CC19B1012}.Debug.ActiveCfg = Debug|Win32
+		{E19CB566-8B73-4AF6-BEE4-C58CC19B1012}.Debug.Build.0 = Debug|Win32
+		{E19CB566-8B73-4AF6-BEE4-C58CC19B1012}.Release.ActiveCfg = Release|Win32
+		{E19CB566-8B73-4AF6-BEE4-C58CC19B1012}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

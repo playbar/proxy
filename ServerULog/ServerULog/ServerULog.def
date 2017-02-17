@@ -1,0 +1,9 @@
+; ServerULog.def : Declares the module parameters for the DLL.
+
+LIBRARY      "ServerULog"
+DESCRIPTION  'ServerULog Windows Dynamic Link Library'
+
+EXPORTS
+    ; Explicit exports can go here
+	HandleEventHook    @1
+	HandleClientEvent  @2

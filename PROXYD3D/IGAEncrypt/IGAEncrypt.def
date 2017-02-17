@@ -1,0 +1,7 @@
+; IGAEncrypt.def : Declares the module parameters for the DLL.
+
+LIBRARY      "IGAEncrypt"
+DESCRIPTION  'IGAEncrypt Windows Dynamic Link Library'
+
+EXPORTS
+    ; Explicit exports can go here

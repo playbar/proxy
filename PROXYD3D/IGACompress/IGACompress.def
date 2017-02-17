@@ -1,0 +1,7 @@
+; IGACompress.def : Declares the module parameters for the DLL.
+
+LIBRARY      "IGACompress"
+DESCRIPTION  'IGACompress Windows Dynamic Link Library'
+
+EXPORTS
+    ; Explicit exports can go here

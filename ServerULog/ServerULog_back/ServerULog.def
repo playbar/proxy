@@ -1,0 +1,7 @@
+LIBRARY	ServerULog
+
+EXPORTS
+	HandleEventHook    @1
+	HandleClientEvent  @2
+
+

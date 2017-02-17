@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<project name="so" type="DX8.0" scans="true" exports="false" export_path="E:\a">
+	<exefile>soul.exe</exefile>
+	<adstexture>
+		<iga2d_ads name="tex002" type="DDS" match_file="IGAImages\a1.dds" adsfile="IGAImages\a1.jpg" />
+
+
+	</adstexture>
+	<adsvideo>
+		<igavideo_ads name="video001" type="DDS" level="0" match_file="" adsfile="" />
+	</adsvideo>
+</project>

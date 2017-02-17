@@ -1,0 +1,25 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DXGUI", "DXGUI\DXGUI.vcproj", "{A3EDA530-E450-4FBF-ACB0-81CE3CEA269B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gui9", "gui9\gui9.vcproj", "{8C396149-8835-4DC1-B63E-4761DA172877}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A3EDA530-E450-4FBF-ACB0-81CE3CEA269B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A3EDA530-E450-4FBF-ACB0-81CE3CEA269B}.Debug|Win32.Build.0 = Debug|Win32
+		{A3EDA530-E450-4FBF-ACB0-81CE3CEA269B}.Release|Win32.ActiveCfg = Release|Win32
+		{A3EDA530-E450-4FBF-ACB0-81CE3CEA269B}.Release|Win32.Build.0 = Release|Win32
+		{8C396149-8835-4DC1-B63E-4761DA172877}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8C396149-8835-4DC1-B63E-4761DA172877}.Debug|Win32.Build.0 = Debug|Win32
+		{8C396149-8835-4DC1-B63E-4761DA172877}.Release|Win32.ActiveCfg = Release|Win32
+		{8C396149-8835-4DC1-B63E-4761DA172877}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

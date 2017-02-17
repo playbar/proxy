@@ -1,0 +1,7 @@
+LIBRARY	EmptyProject
+
+EXPORTS
+	D3D9SearchInit		@1
+	D3D9SearchRender	@2
+	D3D9SearchDestory	@3
+	

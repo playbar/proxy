@@ -1,0 +1,323 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\3D_TOOL.rc2""  // 非 Microsoft Visual C++ 编辑过的资源\r\n"
+    "#include ""afxres.rc""         // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\3D_TOOL.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 235, 55
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "关于 3D_TOOL"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "3D_TOOL Version 1.0",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2008",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "确定",IDOK,178,7,50,16,WS_GROUP
+END
+
+IDD_D_TOOL_DIALOG DIALOGEX 0, 0, 374, 236
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "3D_TOOL"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "3D信息",IDC_STATIC,7,2,360,227
+    CONTROL         "",IDC_LIST_3DINFO,"SysListView32",LVS_REPORT | 
+                    LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,11,34,300,179
+    PUSHBUTTON      "添加...",IDC_BUTTON_ADD,316,40,44,19
+    PUSHBUTTON      "删除",IDC_BUTTON_DELETE,316,62,44,19
+    PUSHBUTTON      "清空信息",IDC_BUTTON_CLEAR,316,84,44,19
+    PUSHBUTTON      "退出",IDC_BUTTON_QUIT,316,190,44,19
+    PUSHBUTTON      "设置...",IDC_BUTTON_SET,316,154,44,19
+    LTEXT           "未知游戏",IDC_STATIC_GAME_NAME,49,13,98,10
+    LTEXT           "资源路径:",IDC_STATIC,15,23,32,10
+    LTEXT           "d://mesh//",IDC_STATIC_RES_PATH,53,23,307,10
+    LTEXT           "游戏名称:",IDC_STATIC,15,13,32,10
+    PUSHBUTTON      "输出信息",IDC_BUTTON_OUTPUT,316,106,44,19
+    LTEXT           "当前选择的对象ID:",IDC_STATIC_SCLECT_TEXT,14,217,58,11
+    LTEXT           "没有选择",IDC_STATIC_TEXT_VLUE,75,217,36,11
+    CONTROL         "显示拾取网格",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,179,216,126,10
+END
+
+IDD_DIALOG_ADD DIALOGEX 0, 0, 372, 370
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "添加/修改模型"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "取消",ID_ADD_CANCEL,91,332,50,23
+    LTEXT           "选定的模型：",IDC_STATIC,8,8,48,8
+    LTEXT           "没有选择模型",IDC_STATIC_ADD_MESH_NAME,58,8,52,8
+    LTEXT           "模型的URL：",IDC_STATIC,8,26,48,8
+    EDITTEXT        IDC_EDIT_ADD_URL,57,23,256,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "测试连接",IDC_BUTTON_ADD_OPEN_URL,317,22,41,16
+    CONTROL         "",IDC_LIST_ADD,"SysListView32",LVS_REPORT | 
+                    LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,209,51,151,161
+    GROUPBOX        "3D模型",IDC_STATIC,7,41,358,176,0,WS_EX_TRANSPARENT
+    PUSHBUTTON      "确定",ID_ADD_OK,196,332,50,23
+    GROUPBOX        "3D属性",IDC_STATIC,7,219,358,102
+    GROUPBOX        "位置",IDC_STATIC,14,230,87,84
+    LTEXT           "X:",IDC_STATIC,21,243,9,8
+    LTEXT           "Y:",IDC_STATIC,21,261,9,8
+    LTEXT           "Z:",IDC_STATIC,21,277,9,8
+    LTEXT           "0000000000",IDC_STATIC_ADD_POSITION_X,33,243,41,8
+    LTEXT           "0000000000",IDC_STATIC_ADD_POSITION_Y,33,261,42,8
+    LTEXT           "0000000000",IDC_STATIC_ADD_POSITION_Z,33,278,42,8
+    CONTROL         "",IDC_SPIN_ADD_POSITION_X,"msctls_updown32",
+                    UDS_ARROWKEYS,81,241,11,14
+    CONTROL         "",IDC_SPIN_ADD_POSITION_Y,"msctls_updown32",
+                    UDS_ARROWKEYS,81,259,11,14
+    CONTROL         "",IDC_SPIN_POSITION_Z,"msctls_updown32",UDS_ARROWKEYS,
+                    81,277,11,14
+    GROUPBOX        "旋转",IDC_STATIC,106,230,87,84
+    LTEXT           "X:",IDC_STATIC,114,243,9,8
+    LTEXT           "Y:",IDC_STATIC,114,261,9,8
+    LTEXT           "Z:",IDC_STATIC,114,278,9,8
+    LTEXT           "0000000000",IDC_STATIC_ADD_ROTATION_X,126,243,41,8
+    LTEXT           "0000000000",IDC_STATIC_ADD_ROTATION_Y,126,261,42,8
+    LTEXT           "0000000000",IDC_STATIC_ADD_ROTATION_Z,126,278,42,8
+    CONTROL         "",IDC_SPIN_ROTATION_X,"msctls_updown32",UDS_ARROWKEYS,
+                    174,241,11,14
+    CONTROL         "",IDC_SPINROTATION_Y,"msctls_updown32",UDS_ARROWKEYS,
+                    174,259,11,14
+    CONTROL         "",IDC_SPIN_ADD_ROTATION_Z,"msctls_updown32",
+                    UDS_ARROWKEYS,174,277,11,14
+    GROUPBOX        "等比缩放",IDC_STATIC,199,230,87,83
+    LTEXT           "0000000000",IDC_STATIC_ADD_SCALING,216,260,44,8
+    CONTROL         "",IDC_SPIN_ADD_SCALING,"msctls_updown32",UDS_ARROWKEYS,
+                    263,258,11,14
+    LTEXT           "偏移量:",IDC_STATIC,20,299,27,8
+    EDITTEXT        IDC_EDIT_ADD_POSITION_OFFSET,49,296,43,14,ES_AUTOHSCROLL
+    LTEXT           "偏移量:",IDC_STATIC,112,299,27,8
+    EDITTEXT        IDC_EDIT_ADD_ROTATION_OFFSET,141,296,43,14,
+                    ES_AUTOHSCROLL
+    LTEXT           "偏移量:",IDC_STATIC,205,297,27,8
+    EDITTEXT        IDC_EDIT_SCALING_OFFSET,234,294,43,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "获取坐标",IDC_BUTTON_ADD_GETPOSITION,292,239,62,71
+    CONTROL         "",IDC_XVIEWCTRL_ADD,
+                    "{4D3F53E2-5DC5-4833-9A4B-C20CC6D039B4}",WS_TABSTOP,11,
+                    51,191,160
+    PUSHBUTTON      "更新",ID_ADD_UPDATA,295,332,50,23
+END
+
+IDD_DIALOG_SET DIALOGEX 0, 0, 244, 135
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "设置"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",ID_SET_OK,139,96,50,22
+    PUSHBUTTON      "取消",ID_SET_CANCEL,54,96,50,22
+    GROUPBOX        "设置资源目录",IDC_STATIC,7,6,230,40
+    PUSHBUTTON      "浏览...",IDC_BUTTON_SET_BROWSE,192,19,37,20
+    EDITTEXT        IDC_EDIT_SET_RES_PATH,17,22,169,14,ES_AUTOHSCROLL | 
+                    WS_DISABLED
+    GROUPBOX        "设置资源输出目录",IDC_STATIC,7,50,230,40
+    PUSHBUTTON      "浏览...",IDC_BUTTON_SET_RES_OUT_BROWSE,192,62,37,20
+    EDITTEXT        IDC_EDIT_SET_RES_OUT_PATH,17,65,169,14,ES_AUTOHSCROLL | 
+                    WS_DISABLED
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 2,0,8,1224
+ PRODUCTVERSION 2,0,8,1224
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "CompanyName", "Emmoa"
+            VALUE "FileDescription", "move x in game"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "3D_TOOL.exe"
+            VALUE "LegalCopyright", "emmoa 保留所有权利。"
+            VALUE "OriginalFilename", "3D_TOOL.exe"
+            VALUE "ProductName", "TODO: <产品名>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_D_TOOL_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 367
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 229
+    END
+
+    IDD_DIALOG_ADD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 365
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 363
+    END
+
+    IDD_DIALOG_SET, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 237
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 128
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_DIALOG_ADD DLGINIT
+BEGIN
+    IDC_XVIEWCTRL_ADD, 0x376, 20, 0
+0x0000, 0x0000, 0x0000, 0x0001, 0x1daa, 0x0000, 0x1adf, 0x0000, 0x0000, 
+0x0000, 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 3D_TOOL(&A)..."
+END
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\3D_TOOL.rc2"  // 非 Microsoft Visual C++ 编辑过的资源
+#include "afxres.rc"         // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

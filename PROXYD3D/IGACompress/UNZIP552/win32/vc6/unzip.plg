@@ -1,0 +1,90 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: unzip - Win32 ASM Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1D3.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "_DEBUG" /D "WIN32" /D "ASM_CRC" /D "_CONSOLE" /D "_MBCS" /Fo"unzip___Win32_ASM_Debug/" /Fd"unzip___Win32_ASM_Debug/" /FD /GZ /c 
+"E:\产品工程\前端\External\UNZIP552\crc32.c"
+"E:\产品工程\前端\External\UNZIP552\win32\crc_i386.c"
+"E:\产品工程\前端\External\UNZIP552\crctab.c"
+"E:\产品工程\前端\External\UNZIP552\crypt.c"
+"E:\产品工程\前端\External\UNZIP552\envargs.c"
+"E:\产品工程\前端\External\UNZIP552\explode.c"
+"E:\产品工程\前端\External\UNZIP552\extract.c"
+"E:\产品工程\前端\External\UNZIP552\fileio.c"
+"E:\产品工程\前端\External\UNZIP552\globals.c"
+"E:\产品工程\前端\External\UNZIP552\inflate.c"
+"E:\产品工程\前端\External\UNZIP552\list.c"
+"E:\产品工程\前端\External\UNZIP552\match.c"
+"E:\产品工程\前端\External\UNZIP552\win32\nt.c"
+"E:\产品工程\前端\External\UNZIP552\process.c"
+"E:\产品工程\前端\External\UNZIP552\ttyio.c"
+"E:\产品工程\前端\External\UNZIP552\unreduce.c"
+"E:\产品工程\前端\External\UNZIP552\unshrink.c"
+"E:\产品工程\前端\External\UNZIP552\unzip.c"
+"E:\产品工程\前端\External\UNZIP552\win32\win32.c"
+"E:\产品工程\前端\External\UNZIP552\zipinfo.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1D3.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1D4.tmp" with contents
+[
+kernel32.lib user32.lib advapi32.lib /nologo /subsystem:console /incremental:yes /pdb:"unzip___Win32_ASM_Debug/unzip.pdb" /debug /machine:I386 /out:"unzip___Win32_ASM_Debug/unzip.exe" /pdbtype:sept 
+".\unzip___Win32_ASM_Debug\crc32.obj"
+".\unzip___Win32_ASM_Debug\crc_i386.obj"
+".\unzip___Win32_ASM_Debug\crctab.obj"
+".\unzip___Win32_ASM_Debug\crypt.obj"
+".\unzip___Win32_ASM_Debug\envargs.obj"
+".\unzip___Win32_ASM_Debug\explode.obj"
+".\unzip___Win32_ASM_Debug\extract.obj"
+".\unzip___Win32_ASM_Debug\fileio.obj"
+".\unzip___Win32_ASM_Debug\globals.obj"
+".\unzip___Win32_ASM_Debug\inflate.obj"
+".\unzip___Win32_ASM_Debug\list.obj"
+".\unzip___Win32_ASM_Debug\match.obj"
+".\unzip___Win32_ASM_Debug\nt.obj"
+".\unzip___Win32_ASM_Debug\process.obj"
+".\unzip___Win32_ASM_Debug\ttyio.obj"
+".\unzip___Win32_ASM_Debug\unreduce.obj"
+".\unzip___Win32_ASM_Debug\unshrink.obj"
+".\unzip___Win32_ASM_Debug\unzip.obj"
+".\unzip___Win32_ASM_Debug\win32.obj"
+".\unzip___Win32_ASM_Debug\zipinfo.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1D4.tmp"
+<h3>Output Window</h3>
+Compiling...
+crc32.c
+crc_i386.c
+crctab.c
+crypt.c
+envargs.c
+explode.c
+extract.c
+fileio.c
+globals.c
+inflate.c
+list.c
+match.c
+nt.c
+process.c
+ttyio.c
+unreduce.c
+unshrink.c
+unzip.c
+win32.c
+zipinfo.c
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+unzip.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

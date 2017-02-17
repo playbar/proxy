@@ -1,0 +1,62 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ShowDIB - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP1C7.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/ShowDIB.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\code\Source\ShowDIB\ChildFrm.cpp"
+"D:\code\Source\ShowDIB\dibapi.cpp"
+"D:\code\Source\ShowDIB\MainFrm.cpp"
+"D:\code\Source\ShowDIB\ShowDIB.cpp"
+"D:\code\Source\ShowDIB\ShowDIBDoc.cpp"
+"D:\code\Source\ShowDIB\ShowDIBView.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP1C7.tmp" 
+Creating temporary file "C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP1C8.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/ShowDIB.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\code\Source\ShowDIB\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP1C8.tmp" 
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+ChildFrm.cpp
+dibapi.cpp
+MainFrm.cpp
+ShowDIB.cpp
+ShowDIBDoc.cpp
+ShowDIBView.cpp
+Generating Code...
+Creating temporary file "C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP1C9.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/ShowDIB.pdb" /debug /machine:I386 /out:"Debug/ShowDIB.exe" /pdbtype:sept 
+.\Debug\ChildFrm.obj
+.\Debug\dibapi.obj
+.\Debug\MainFrm.obj
+.\Debug\ShowDIB.obj
+.\Debug\ShowDIBDoc.obj
+.\Debug\ShowDIBView.obj
+.\Debug\StdAfx.obj
+.\Debug\ShowDIB.res
+]
+Creating command line "link.exe @C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP1C9.tmp"
+<h3>Output Window</h3>
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/ShowDIB.bsc"  .\Debug\StdAfx.sbr .\Debug\ChildFrm.sbr .\Debug\dibapi.sbr .\Debug\MainFrm.sbr .\Debug\ShowDIB.sbr .\Debug\ShowDIBDoc.sbr .\Debug\ShowDIBView.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+ShowDIB.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

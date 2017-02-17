@@ -1,0 +1,1668 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ColorProcess - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/ColorProcess.res" /d "NDEBUG" /d "_AFXDLL" "D:\code\Source\ColorProcess\ColorProcess.rc"" 
+Creating temporary file "C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP135.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/ColorProcess.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\code\Source\ColorProcess\AdjustColorDlg.cpp"
+"D:\code\Source\ColorProcess\BCDlg.cpp"
+"D:\code\Source\ColorProcess\ChildFrm.cpp"
+"D:\code\Source\ColorProcess\ColorBitsDlg.cpp"
+"D:\code\Source\ColorProcess\ColorProcess.cpp"
+"D:\code\Source\ColorProcess\ColorProcessDoc.cpp"
+"D:\code\Source\ColorProcess\ColorProcessView.cpp"
+"D:\code\Source\ColorProcess\CqOctree.cpp"
+"D:\code\Source\ColorProcess\Dib.cpp"
+"D:\code\Source\ColorProcess\dibapi.cpp"
+"D:\code\Source\ColorProcess\ExposureDlg.cpp"
+"D:\code\Source\ColorProcess\GammaCorrection.cpp"
+"D:\code\Source\ColorProcess\GrayDlg.cpp"
+"D:\code\Source\ColorProcess\MainFrm.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP135.tmp" 
+Creating temporary file "C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP136.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/ColorProcess.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\code\Source\ColorProcess\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP136.tmp" 
+Creating temporary file "C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP137.tmp" with contents
+[
+winmm.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/ColorProcess.pdb" /machine:I386 /out:"Release/ColorProcess.exe" 
+.\Release\AdjustColorDlg.obj
+.\Release\BCDlg.obj
+.\Release\ChildFrm.obj
+.\Release\ColorBitsDlg.obj
+.\Release\ColorProcess.obj
+.\Release\ColorProcessDoc.obj
+.\Release\ColorProcessView.obj
+.\Release\CqOctree.obj
+.\Release\Dib.obj
+.\Release\dibapi.obj
+.\Release\ExposureDlg.obj
+.\Release\GammaCorrection.obj
+.\Release\GrayDlg.obj
+.\Release\MainFrm.obj
+.\Release\StdAfx.obj
+.\Release\ColorProcess.res
+]
+Creating command line "link.exe @C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP137.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+AdjustColorDlg.cpp
+BCDlg.cpp
+ChildFrm.cpp
+ColorBitsDlg.cpp
+ColorProcess.cpp
+ColorProcessDoc.cpp
+ColorProcessView.cpp
+CqOctree.cpp
+Dib.cpp
+dibapi.cpp
+ExposureDlg.cpp
+GammaCorrection.cpp
+D:\code\Source\ColorProcess\GammaCorrection.cpp(67) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+GrayDlg.cpp
+MainFrm.cpp
+Generating Code...
+Linking...
+LINK : warning LNK4089: all references to "WINMM.dll" discarded by /OPT:REF
+
+
+
+<h3>Results</h3>
+ColorProcess.exe - 0 error(s), 2 warning(s)
+<h3>
+--------------------Configuration: ColorProcess - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/ColorProcess.res" /d "_DEBUG" /d "_AFXDLL" "D:\code\Source\ColorProcess\ColorProcess.rc"" 
+Creating temporary file "C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP139.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/ColorProcess.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\code\Source\ColorProcess\AdjustColorDlg.cpp"
+"D:\code\Source\ColorProcess\BCDlg.cpp"
+"D:\code\Source\ColorProcess\ChildFrm.cpp"
+"D:\code\Source\ColorProcess\ColorBitsDlg.cpp"
+"D:\code\Source\ColorProcess\ColorProcess.cpp"
+"D:\code\Source\ColorProcess\ColorProcessDoc.cpp"
+"D:\code\Source\ColorProcess\ColorProcessView.cpp"
+"D:\code\Source\ColorProcess\CqOctree.cpp"
+"D:\code\Source\ColorProcess\Dib.cpp"
+"D:\code\Source\ColorProcess\dibapi.cpp"
+"D:\code\Source\ColorProcess\ExposureDlg.cpp"
+"D:\code\Source\ColorProcess\GammaCorrection.cpp"
+"D:\code\Source\ColorProcess\GrayDlg.cpp"
+"D:\code\Source\ColorProcess\MainFrm.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP139.tmp" 
+Creating temporary file "C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP13A.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/ColorProcess.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\code\Source\ColorProcess\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP13A.tmp" 
+Creating temporary file "C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP13B.tmp" with contents
+[
+winmm.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/ColorProcess.pdb" /debug /machine:I386 /out:"Debug/ColorProcess.exe" /pdbtype:sept 
+.\Debug\AdjustColorDlg.obj
+.\Debug\BCDlg.obj
+.\Debug\ChildFrm.obj
+.\Debug\ColorBitsDlg.obj
+.\Debug\ColorProcess.obj
+.\Debug\ColorProcessDoc.obj
+.\Debug\ColorProcessView.obj
+.\Debug\CqOctree.obj
+.\Debug\Dib.obj
+.\Debug\dibapi.obj
+.\Debug\ExposureDlg.obj
+.\Debug\GammaCorrection.obj
+.\Debug\GrayDlg.obj
+.\Debug\MainFrm.obj
+.\Debug\StdAfx.obj
+.\Debug\ColorProcess.res
+]
+Creating command line "link.exe @C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP13B.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+AdjustColorDlg.cpp
+BCDlg.cpp
+ChildFrm.cpp
+ColorBitsDlg.cpp
+ColorProcess.cpp
+ColorProcessDoc.cpp
+ColorProcessView.cpp
+CqOctree.cpp
+Dib.cpp
+dibapi.cpp
+ExposureDlg.cpp
+GammaCorrection.cpp
+D:\code\Source\ColorProcess\GammaCorrection.cpp(67) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+GrayDlg.cpp
+MainFrm.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+ColorProcess.exe - 0 error(s), 1 warning(s)
+<h3>
+--------------------Configuration: EffectShow - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/EffectShow.res" /d "NDEBUG" /d "_AFXDLL" "D:\code\Source\EffectShow\EffectShow.rc"" 
+Creating temporary file "C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP13D.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/EffectShow.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\code\Source\EffectShow\ChildFrm.cpp"
+"D:\code\Source\EffectShow\CqOctree.cpp"
+"D:\code\Source\EffectShow\Dib.cpp"
+"D:\code\Source\EffectShow\dibapi.cpp"
+"D:\code\Source\EffectShow\EffectShow.cpp"
+"D:\code\Source\EffectShow\EffectShowDoc.cpp"
+"D:\code\Source\EffectShow\EffectShowView.cpp"
+"D:\code\Source\EffectShow\MainFrm.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP13D.tmp" 
+Creating temporary file "C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP13E.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/EffectShow.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\code\Source\EffectShow\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP13E.tmp" 
+Creating temporary file "C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP13F.tmp" with contents
+[
+winmm.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/EffectShow.pdb" /machine:I386 /out:"Release/EffectShow.exe" 
+.\Release\ChildFrm.obj
+.\Release\CqOctree.obj
+.\Release\Dib.obj
+.\Release\dibapi.obj
+.\Release\EffectShow.obj
+.\Release\EffectShowDoc.obj
+.\Release\EffectShowView.obj
+.\Release\MainFrm.obj
+.\Release\StdAfx.obj
+.\Release\EffectShow.res
+]
+Creating command line "link.exe @C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP13F.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ChildFrm.cpp
+CqOctree.cpp
+Dib.cpp
+dibapi.cpp
+EffectShow.cpp
+EffectShowDoc.cpp
+EffectShowView.cpp
+MainFrm.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+EffectShow.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: EffectShow - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/EffectShow.res" /d "_DEBUG" /d "_AFXDLL" "D:\code\Source\EffectShow\EffectShow.rc"" 
+Creating temporary file "C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP141.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/EffectShow.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\code\Source\EffectShow\ChildFrm.cpp"
+"D:\code\Source\EffectShow\CqOctree.cpp"
+"D:\code\Source\EffectShow\Dib.cpp"
+"D:\code\Source\EffectShow\dibapi.cpp"
+"D:\code\Source\EffectShow\EffectShow.cpp"
+"D:\code\Source\EffectShow\EffectShowDoc.cpp"
+"D:\code\Source\EffectShow\EffectShowView.cpp"
+"D:\code\Source\EffectShow\MainFrm.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP141.tmp" 
+Creating temporary file "C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP142.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/EffectShow.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\code\Source\EffectShow\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP142.tmp" 
+Creating temporary file "C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP143.tmp" with contents
+[
+winmm.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/EffectShow.pdb" /debug /machine:I386 /out:"Debug/EffectShow.exe" /pdbtype:sept 
+.\Debug\ChildFrm.obj
+.\Debug\CqOctree.obj
+.\Debug\Dib.obj
+.\Debug\dibapi.obj
+.\Debug\EffectShow.obj
+.\Debug\EffectShowDoc.obj
+.\Debug\EffectShowView.obj
+.\Debug\MainFrm.obj
+.\Debug\StdAfx.obj
+.\Debug\EffectShow.res
+]
+Creating command line "link.exe @C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP143.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ChildFrm.cpp
+CqOctree.cpp
+Dib.cpp
+dibapi.cpp
+EffectShow.cpp
+EffectShowDoc.cpp
+EffectShowView.cpp
+MainFrm.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+EffectShow.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: Huffman - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP145.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Release/Huffman.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\code\Source\Huffman\Huffman.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP145.tmp" 
+Creating temporary file "C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP146.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:no /pdb:"Release/Huffman.pdb" /machine:I386 /out:"Release/Huffman.exe" 
+.\Release\Huffman.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP146.tmp"
+<h3>Output Window</h3>
+Compiling...
+Huffman.c
+Linking...
+
+
+
+<h3>Results</h3>
+Huffman.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: Huffman - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP148.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/Huffman.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\code\Source\Huffman\Huffman.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP148.tmp" 
+Creating temporary file "C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP149.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/Huffman.pdb" /debug /machine:I386 /out:"Debug/Huffman.exe" /pdbtype:sept 
+.\Debug\Huffman.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP149.tmp"
+<h3>Output Window</h3>
+Compiling...
+Huffman.c
+Linking...
+
+
+
+<h3>Results</h3>
+Huffman.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: diblib - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP14B.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/diblib.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\code\Source\ImageLib\CqOctree.cpp"
+"D:\code\Source\ImageLib\dibapi.cpp"
+"D:\code\Source\ImageLib\IP.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP14B.tmp" 
+Creating temporary file "C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP14C.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/diblib.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\code\Source\ImageLib\DibLib\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP14C.tmp" 
+Creating command line "link.exe -lib /nologo /out:"Release\diblib.lib"  .\Release\CqOctree.obj .\Release\dibapi.obj .\Release\IP.obj .\Release\StdAfx.obj "
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+CqOctree.cpp
+dibapi.cpp
+IP.cpp
+D:\code\Source\ImageLib\IP.cpp(2496) : warning C4018: '<' : signed/unsigned mismatch
+D:\code\Source\ImageLib\IP.cpp(2498) : warning C4018: '<' : signed/unsigned mismatch
+D:\code\Source\ImageLib\IP.cpp(2635) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+D:\code\Source\ImageLib\IP.cpp(2635) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+D:\code\Source\ImageLib\IP.cpp(2635) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+D:\code\Source\ImageLib\IP.cpp(2635) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+D:\code\Source\ImageLib\IP.cpp(2651) : warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+D:\code\Source\ImageLib\IP.cpp(2593) : warning C4101: 'v' : unreferenced local variable
+D:\code\Source\ImageLib\IP.cpp(2592) : warning C4101: 'dst' : unreferenced local variable
+D:\code\Source\ImageLib\IP.cpp(2590) : warning C4101: 'x' : unreferenced local variable
+D:\code\Source\ImageLib\IP.cpp(2590) : warning C4101: 'y' : unreferenced local variable
+D:\code\Source\ImageLib\IP.cpp(2590) : warning C4101: 'ir' : unreferenced local variable
+D:\code\Source\ImageLib\IP.cpp(2737) : warning C4101: 'dst' : unreferenced local variable
+D:\code\Source\ImageLib\IP.cpp(2847) : warning C4101: 'dst' : unreferenced local variable
+Generating Code...
+Creating library...
+<h3>
+--------------------Configuration: ImageLib - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/ImageLib.res" /d "NDEBUG" /d "_AFXDLL" "D:\code\Source\ImageLib\ImageLib.rc"" 
+Creating temporary file "C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP14D.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Release/ImageLib.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\code\Source\ImageLib\Dib.cpp"
+"D:\code\Source\ImageLib\Gif.cpp"
+"D:\code\Source\ImageLib\GIFAPI.CPP"
+"D:\code\Source\ImageLib\Huffman.cpp"
+"D:\code\Source\ImageLib\ImageLib.cpp"
+"D:\code\Source\ImageLib\Jpeg.cpp"
+"D:\code\Source\ImageLib\JpegFormatDlg.cpp"
+"D:\code\Source\ImageLib\Pcx.cpp"
+"D:\code\Source\ImageLib\Tga.cpp"
+"D:\code\Source\ImageLib\Tif.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP14D.tmp" 
+Creating temporary file "C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP14E.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Release/ImageLib.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\code\Source\ImageLib\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP14E.tmp" 
+Creating temporary file "C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP14F.tmp" with contents
+[
+JpegLib2.lib libtiff.lib winmm.lib /nologo /subsystem:windows /dll /incremental:no /pdb:"Release/ImageLib.pdb" /machine:I386 /def:".\ImageLib.def" /out:"Release/ImageLib.dll" /implib:"Release/ImageLib.lib" 
+.\Release\Dib.obj
+.\Release\Gif.obj
+.\Release\GIFAPI.OBJ
+.\Release\Huffman.obj
+.\Release\ImageLib.obj
+.\Release\Jpeg.obj
+.\Release\JpegFormatDlg.obj
+.\Release\Pcx.obj
+.\Release\StdAfx.obj
+.\Release\Tga.obj
+.\Release\Tif.obj
+.\Release\ImageLib.res
+.\DibLib\Release\diblib.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP14F.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+Dib.cpp
+Gif.cpp
+GIFAPI.CPP
+Huffman.cpp
+ImageLib.cpp
+Jpeg.cpp
+JpegFormatDlg.cpp
+Pcx.cpp
+Tga.cpp
+Tif.cpp
+D:\code\Source\ImageLib\Tif.cpp(663) : warning C4244: '=' : conversion from 'double' to 'unsigned long', possible loss of data
+D:\code\Source\ImageLib\Tif.cpp(673) : warning C4244: '=' : conversion from 'double' to 'unsigned long', possible loss of data
+D:\code\Source\ImageLib\Tif.cpp(695) : warning C4244: '=' : conversion from 'double' to 'unsigned long', possible loss of data
+D:\code\Source\ImageLib\Tif.cpp(696) : warning C4244: '=' : conversion from 'double' to 'unsigned long', possible loss of data
+D:\code\Source\ImageLib\Tif.cpp(697) : warning C4244: '=' : conversion from 'double' to 'unsigned long', possible loss of data
+Generating Code...
+Linking...
+   Creating library Release/ImageLib.lib and object Release/ImageLib.exp
+LINK : warning LNK4098: defaultlib "LIBC" conflicts with use of other libs; use /NODEFAULTLIB:library
+Creating temporary file "C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP153.bat" with contents
+[
+@echo off
+md ..\ImageBoard\Release
+copy Release\ImageLib.dll ..\ImageBoard\Release\ImageLib.dll
+]
+Creating command line "C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP153.bat"
+
+A subdirectory or file ..\ImageBoard\Release already exists.
+        1 file(s) copied.
+<h3>
+--------------------Configuration: ImageBoard - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/ImageBoard.res" /d "NDEBUG" /d "_AFXDLL" "D:\code\Source\ImageBoard\ImageBoard.rc"" 
+Creating temporary file "C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP154.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Release/" /Fp"Release/ImageBoard.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\code\Source\ImageBoard\AdjustColorDlg.cpp"
+"D:\code\Source\ImageBoard\BCDlg.cpp"
+"D:\code\Source\ImageBoard\CanvasSize.cpp"
+"D:\code\Source\ImageBoard\ChildFrm.cpp"
+"D:\code\Source\ImageBoard\ColorBitsDlg.cpp"
+"D:\code\Source\ImageBoard\ColorGrid.cpp"
+"D:\code\Source\ImageBoard\ConvoluteDlg.cpp"
+"D:\code\Source\ImageBoard\EmbossmentDlg.cpp"
+"D:\code\Source\ImageBoard\ExposureDlg.cpp"
+"D:\code\Source\ImageBoard\FloatDibWnd.cpp"
+"D:\code\Source\ImageBoard\GammaCorrection.cpp"
+"D:\code\Source\ImageBoard\GrayDlg.cpp"
+"D:\code\Source\ImageBoard\ImageBoard.cpp"
+"D:\code\Source\ImageBoard\ImageBoardDoc.cpp"
+"D:\code\Source\ImageBoard\ImageBoardView.cpp"
+"D:\code\Source\ImageBoard\JpegFormatDlg.cpp"
+"D:\code\Source\ImageBoard\MainFrm.cpp"
+"D:\code\Source\ImageBoard\PaintParambar.cpp"
+"D:\code\Source\ImageBoard\PaintToolbar.cpp"
+"D:\code\Source\ImageBoard\PenParamsList.cpp"
+"D:\code\Source\ImageBoard\PenWidth.cpp"
+"D:\code\Source\ImageBoard\RotateAngle.cpp"
+"D:\code\Source\ImageBoard\Scale.cpp"
+"D:\code\Source\ImageBoard\SelectPasteDlg.cpp"
+"D:\code\Source\ImageBoard\Splash.cpp"
+"D:\code\Source\ImageBoard\SpreadDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP154.tmp" 
+Creating temporary file "C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP155.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Release/" /Fp"Release/ImageBoard.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\code\Source\ImageBoard\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP155.tmp" 
+Creating temporary file "C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP156.tmp" with contents
+[
+winmm.lib version.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/ImageBoard.pdb" /machine:I386 /out:"Release/ImageBoard.exe" 
+.\Release\AdjustColorDlg.obj
+.\Release\BCDlg.obj
+.\Release\CanvasSize.obj
+.\Release\ChildFrm.obj
+.\Release\ColorBitsDlg.obj
+.\Release\ColorGrid.obj
+.\Release\ConvoluteDlg.obj
+.\Release\EmbossmentDlg.obj
+.\Release\ExposureDlg.obj
+.\Release\FloatDibWnd.obj
+.\Release\GammaCorrection.obj
+.\Release\GrayDlg.obj
+.\Release\ImageBoard.obj
+.\Release\ImageBoardDoc.obj
+.\Release\ImageBoardView.obj
+.\Release\JpegFormatDlg.obj
+.\Release\MainFrm.obj
+.\Release\PaintParambar.obj
+.\Release\PaintToolbar.obj
+.\Release\PenParamsList.obj
+.\Release\PenWidth.obj
+.\Release\RotateAngle.obj
+.\Release\Scale.obj
+.\Release\SelectPasteDlg.obj
+.\Release\Splash.obj
+.\Release\SpreadDlg.obj
+.\Release\StdAfx.obj
+.\Release\ImageBoard.res
+\code\Source\ImageLib\DibLib\Release\diblib.lib
+\code\Source\ImageLib\Release\ImageLib.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP156.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+AdjustColorDlg.cpp
+BCDlg.cpp
+CanvasSize.cpp
+ChildFrm.cpp
+ColorBitsDlg.cpp
+ColorGrid.cpp
+ConvoluteDlg.cpp
+EmbossmentDlg.cpp
+ExposureDlg.cpp
+FloatDibWnd.cpp
+GammaCorrection.cpp
+D:\code\Source\ImageBoard\GammaCorrection.cpp(67) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+GrayDlg.cpp
+ImageBoard.cpp
+ImageBoardDoc.cpp
+ImageBoardView.cpp
+JpegFormatDlg.cpp
+MainFrm.cpp
+PaintParambar.cpp
+PaintToolbar.cpp
+PenParamsList.cpp
+Generating Code...
+Compiling...
+PenWidth.cpp
+RotateAngle.cpp
+Scale.cpp
+SelectPasteDlg.cpp
+Splash.cpp
+SpreadDlg.cpp
+Generating Code...
+Linking...
+LINK : warning LNK4089: all references to "WINMM.dll" discarded by /OPT:REF
+Creating temporary file "C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP158.bat" with contents
+[
+@echo off
+copy ..\ImageLib\Release\ImageLib.dll Release\ImageLib.dll
+]
+Creating command line "C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP158.bat"
+
+        1 file(s) copied.
+
+
+
+<h3>Results</h3>
+ImageBoard.exe - 0 error(s), 22 warning(s)
+<h3>
+--------------------Configuration: diblib - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP159.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/diblib.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\code\Source\ImageLib\CqOctree.cpp"
+"D:\code\Source\ImageLib\dibapi.cpp"
+"D:\code\Source\ImageLib\IP.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP159.tmp" 
+Creating temporary file "C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP15A.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/diblib.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\code\Source\ImageLib\DibLib\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP15A.tmp" 
+Creating command line "link.exe -lib /nologo /out:"Debug\diblib.lib"  .\Debug\CqOctree.obj .\Debug\dibapi.obj .\Debug\IP.obj .\Debug\StdAfx.obj "
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+CqOctree.cpp
+dibapi.cpp
+IP.cpp
+D:\code\Source\ImageLib\IP.cpp(2496) : warning C4018: '<' : signed/unsigned mismatch
+D:\code\Source\ImageLib\IP.cpp(2498) : warning C4018: '<' : signed/unsigned mismatch
+D:\code\Source\ImageLib\IP.cpp(2635) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+D:\code\Source\ImageLib\IP.cpp(2635) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+D:\code\Source\ImageLib\IP.cpp(2635) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+D:\code\Source\ImageLib\IP.cpp(2635) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+D:\code\Source\ImageLib\IP.cpp(2651) : warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+D:\code\Source\ImageLib\IP.cpp(2593) : warning C4101: 'v' : unreferenced local variable
+D:\code\Source\ImageLib\IP.cpp(2592) : warning C4101: 'dst' : unreferenced local variable
+D:\code\Source\ImageLib\IP.cpp(2590) : warning C4101: 'x' : unreferenced local variable
+D:\code\Source\ImageLib\IP.cpp(2590) : warning C4101: 'y' : unreferenced local variable
+D:\code\Source\ImageLib\IP.cpp(2590) : warning C4101: 'ir' : unreferenced local variable
+D:\code\Source\ImageLib\IP.cpp(2737) : warning C4101: 'dst' : unreferenced local variable
+D:\code\Source\ImageLib\IP.cpp(2847) : warning C4101: 'dst' : unreferenced local variable
+Generating Code...
+Creating library...
+<h3>
+--------------------Configuration: ImageLib - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/ImageLib.res" /d "_DEBUG" /d "_AFXDLL" "D:\code\Source\ImageLib\ImageLib.rc"" 
+Creating temporary file "C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP15B.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Debug/ImageLib.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\code\Source\ImageLib\Dib.cpp"
+"D:\code\Source\ImageLib\Gif.cpp"
+"D:\code\Source\ImageLib\GIFAPI.CPP"
+"D:\code\Source\ImageLib\Huffman.cpp"
+"D:\code\Source\ImageLib\ImageLib.cpp"
+"D:\code\Source\ImageLib\Jpeg.cpp"
+"D:\code\Source\ImageLib\JpegFormatDlg.cpp"
+"D:\code\Source\ImageLib\Pcx.cpp"
+"D:\code\Source\ImageLib\Tga.cpp"
+"D:\code\Source\ImageLib\Tif.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP15B.tmp" 
+Creating temporary file "C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP15C.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Debug/ImageLib.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\code\Source\ImageLib\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP15C.tmp" 
+Creating temporary file "C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP15D.tmp" with contents
+[
+JpegLib2.lib libtiff.lib winmm.lib /nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug/ImageLib.pdb" /debug /machine:I386 /def:".\ImageLib.def" /out:"Debug/ImageLib.dll" /implib:"Debug/ImageLib.lib" /pdbtype:sept 
+.\Debug\Dib.obj
+.\Debug\Gif.obj
+.\Debug\GIFAPI.OBJ
+.\Debug\Huffman.obj
+.\Debug\ImageLib.obj
+.\Debug\Jpeg.obj
+.\Debug\JpegFormatDlg.obj
+.\Debug\Pcx.obj
+.\Debug\StdAfx.obj
+.\Debug\Tga.obj
+.\Debug\Tif.obj
+.\Debug\ImageLib.res
+.\DibLib\Debug\diblib.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP15D.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+Dib.cpp
+Gif.cpp
+GIFAPI.CPP
+Huffman.cpp
+ImageLib.cpp
+Jpeg.cpp
+JpegFormatDlg.cpp
+Pcx.cpp
+Tga.cpp
+Tif.cpp
+D:\code\Source\ImageLib\Tif.cpp(663) : warning C4244: '=' : conversion from 'double' to 'unsigned long', possible loss of data
+D:\code\Source\ImageLib\Tif.cpp(673) : warning C4244: '=' : conversion from 'double' to 'unsigned long', possible loss of data
+D:\code\Source\ImageLib\Tif.cpp(695) : warning C4244: '=' : conversion from 'double' to 'unsigned long', possible loss of data
+D:\code\Source\ImageLib\Tif.cpp(696) : warning C4244: '=' : conversion from 'double' to 'unsigned long', possible loss of data
+D:\code\Source\ImageLib\Tif.cpp(697) : warning C4244: '=' : conversion from 'double' to 'unsigned long', possible loss of data
+Generating Code...
+Linking...
+   Creating library Debug/ImageLib.lib and object Debug/ImageLib.exp
+LINK : warning LNK4098: defaultlib "LIBC" conflicts with use of other libs; use /NODEFAULTLIB:library
+LINK : warning LNK4098: defaultlib "MSVCRT" conflicts with use of other libs; use /NODEFAULTLIB:library
+Creating temporary file "C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP161.bat" with contents
+[
+@echo off
+md ..\ImageBoard\Debug
+copy Debug\ImageLib.dll ..\ImageBoard\Debug\ImageLib.dll
+]
+Creating command line "C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP161.bat"
+
+A subdirectory or file ..\ImageBoard\Debug already exists.
+        1 file(s) copied.
+<h3>
+--------------------Configuration: ImageBoard - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/ImageBoard.res" /d "_DEBUG" /d "_AFXDLL" "D:\code\Source\ImageBoard\ImageBoard.rc"" 
+Creating temporary file "C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP162.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/ImageBoard.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\code\Source\ImageBoard\AdjustColorDlg.cpp"
+"D:\code\Source\ImageBoard\BCDlg.cpp"
+"D:\code\Source\ImageBoard\CanvasSize.cpp"
+"D:\code\Source\ImageBoard\ChildFrm.cpp"
+"D:\code\Source\ImageBoard\ColorBitsDlg.cpp"
+"D:\code\Source\ImageBoard\ColorGrid.cpp"
+"D:\code\Source\ImageBoard\ConvoluteDlg.cpp"
+"D:\code\Source\ImageBoard\EmbossmentDlg.cpp"
+"D:\code\Source\ImageBoard\ExposureDlg.cpp"
+"D:\code\Source\ImageBoard\FloatDibWnd.cpp"
+"D:\code\Source\ImageBoard\GammaCorrection.cpp"
+"D:\code\Source\ImageBoard\GrayDlg.cpp"
+"D:\code\Source\ImageBoard\ImageBoard.cpp"
+"D:\code\Source\ImageBoard\ImageBoardDoc.cpp"
+"D:\code\Source\ImageBoard\ImageBoardView.cpp"
+"D:\code\Source\ImageBoard\JpegFormatDlg.cpp"
+"D:\code\Source\ImageBoard\MainFrm.cpp"
+"D:\code\Source\ImageBoard\PaintParambar.cpp"
+"D:\code\Source\ImageBoard\PaintToolbar.cpp"
+"D:\code\Source\ImageBoard\PenParamsList.cpp"
+"D:\code\Source\ImageBoard\PenWidth.cpp"
+"D:\code\Source\ImageBoard\RotateAngle.cpp"
+"D:\code\Source\ImageBoard\Scale.cpp"
+"D:\code\Source\ImageBoard\SelectPasteDlg.cpp"
+"D:\code\Source\ImageBoard\Splash.cpp"
+"D:\code\Source\ImageBoard\SpreadDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP162.tmp" 
+Creating temporary file "C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP163.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/ImageBoard.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\code\Source\ImageBoard\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP163.tmp" 
+Creating temporary file "C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP164.tmp" with contents
+[
+winmm.lib version.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/ImageBoard.pdb" /debug /machine:I386 /out:"Debug/ImageBoard.exe" /pdbtype:sept 
+.\Debug\AdjustColorDlg.obj
+.\Debug\BCDlg.obj
+.\Debug\CanvasSize.obj
+.\Debug\ChildFrm.obj
+.\Debug\ColorBitsDlg.obj
+.\Debug\ColorGrid.obj
+.\Debug\ConvoluteDlg.obj
+.\Debug\EmbossmentDlg.obj
+.\Debug\ExposureDlg.obj
+.\Debug\FloatDibWnd.obj
+.\Debug\GammaCorrection.obj
+.\Debug\GrayDlg.obj
+.\Debug\ImageBoard.obj
+.\Debug\ImageBoardDoc.obj
+.\Debug\ImageBoardView.obj
+.\Debug\JpegFormatDlg.obj
+.\Debug\MainFrm.obj
+.\Debug\PaintParambar.obj
+.\Debug\PaintToolbar.obj
+.\Debug\PenParamsList.obj
+.\Debug\PenWidth.obj
+.\Debug\RotateAngle.obj
+.\Debug\Scale.obj
+.\Debug\SelectPasteDlg.obj
+.\Debug\Splash.obj
+.\Debug\SpreadDlg.obj
+.\Debug\StdAfx.obj
+.\Debug\ImageBoard.res
+\code\Source\ImageLib\DibLib\Debug\diblib.lib
+\code\Source\ImageLib\Debug\ImageLib.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP164.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+AdjustColorDlg.cpp
+BCDlg.cpp
+CanvasSize.cpp
+ChildFrm.cpp
+ColorBitsDlg.cpp
+ColorGrid.cpp
+ConvoluteDlg.cpp
+EmbossmentDlg.cpp
+ExposureDlg.cpp
+FloatDibWnd.cpp
+GammaCorrection.cpp
+D:\code\Source\ImageBoard\GammaCorrection.cpp(67) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+GrayDlg.cpp
+ImageBoard.cpp
+ImageBoardDoc.cpp
+ImageBoardView.cpp
+JpegFormatDlg.cpp
+MainFrm.cpp
+PaintParambar.cpp
+PaintToolbar.cpp
+PenParamsList.cpp
+Generating Code...
+Compiling...
+PenWidth.cpp
+RotateAngle.cpp
+Scale.cpp
+SelectPasteDlg.cpp
+Splash.cpp
+SpreadDlg.cpp
+Generating Code...
+Linking...
+Creating temporary file "C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP166.bat" with contents
+[
+@echo off
+copy ..\ImageLib\Debug\ImageLib.dll Debug\ImageLib.dll
+]
+Creating command line "C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP166.bat"
+
+        1 file(s) copied.
+
+
+
+<h3>Results</h3>
+ImageBoard.exe - 0 error(s), 22 warning(s)
+<h3>
+--------------------Configuration: ImageProcess - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/ImageProcess.res" /d "NDEBUG" /d "_AFXDLL" "D:\code\Source\ImageProcess\ImageProcess.rc"" 
+Creating temporary file "C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP167.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/ImageProcess.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\code\Source\ImageProcess\ChildFrm.cpp"
+"D:\code\Source\ImageProcess\ConvoluteDlg.cpp"
+"D:\code\Source\ImageProcess\CqOctree.cpp"
+"D:\code\Source\ImageProcess\Dib.cpp"
+"D:\code\Source\ImageProcess\dibapi.cpp"
+"D:\code\Source\ImageProcess\EmbossmentDlg.cpp"
+"D:\code\Source\ImageProcess\ImageProcess.cpp"
+"D:\code\Source\ImageProcess\ImageProcessDoc.cpp"
+"D:\code\Source\ImageProcess\ImageProcessView.cpp"
+"D:\code\Source\ImageProcess\IP.cpp"
+"D:\code\Source\ImageProcess\MainFrm.cpp"
+"D:\code\Source\ImageProcess\SpreadDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP167.tmp" 
+Creating temporary file "C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP168.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/ImageProcess.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\code\Source\ImageProcess\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP168.tmp" 
+Creating temporary file "C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP169.tmp" with contents
+[
+winmm.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/ImageProcess.pdb" /machine:I386 /out:"Release/ImageProcess.exe" 
+.\Release\ChildFrm.obj
+.\Release\ConvoluteDlg.obj
+.\Release\CqOctree.obj
+.\Release\Dib.obj
+.\Release\dibapi.obj
+.\Release\EmbossmentDlg.obj
+.\Release\ImageProcess.obj
+.\Release\ImageProcessDoc.obj
+.\Release\ImageProcessView.obj
+.\Release\IP.obj
+.\Release\MainFrm.obj
+.\Release\SpreadDlg.obj
+.\Release\StdAfx.obj
+.\Release\ImageProcess.res
+\code\Source\ImageLib\Release\ImageLib.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP169.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ChildFrm.cpp
+ConvoluteDlg.cpp
+CqOctree.cpp
+Dib.cpp
+dibapi.cpp
+EmbossmentDlg.cpp
+ImageProcess.cpp
+ImageProcessDoc.cpp
+ImageProcessView.cpp
+IP.cpp
+D:\code\Source\ImageProcess\IP.cpp(2496) : warning C4018: '<' : signed/unsigned mismatch
+D:\code\Source\ImageProcess\IP.cpp(2498) : warning C4018: '<' : signed/unsigned mismatch
+D:\code\Source\ImageProcess\IP.cpp(2635) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+D:\code\Source\ImageProcess\IP.cpp(2635) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+D:\code\Source\ImageProcess\IP.cpp(2635) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+D:\code\Source\ImageProcess\IP.cpp(2635) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+D:\code\Source\ImageProcess\IP.cpp(2651) : warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+D:\code\Source\ImageProcess\IP.cpp(2593) : warning C4101: 'v' : unreferenced local variable
+D:\code\Source\ImageProcess\IP.cpp(2592) : warning C4101: 'dst' : unreferenced local variable
+D:\code\Source\ImageProcess\IP.cpp(2590) : warning C4101: 'x' : unreferenced local variable
+D:\code\Source\ImageProcess\IP.cpp(2590) : warning C4101: 'y' : unreferenced local variable
+D:\code\Source\ImageProcess\IP.cpp(2590) : warning C4101: 'ir' : unreferenced local variable
+D:\code\Source\ImageProcess\IP.cpp(2737) : warning C4101: 'dst' : unreferenced local variable
+D:\code\Source\ImageProcess\IP.cpp(2847) : warning C4101: 'dst' : unreferenced local variable
+MainFrm.cpp
+SpreadDlg.cpp
+Generating Code...
+Linking...
+LINK : warning LNK4089: all references to "WINMM.dll" discarded by /OPT:REF
+
+
+
+<h3>Results</h3>
+ImageProcess.exe - 0 error(s), 15 warning(s)
+<h3>
+--------------------Configuration: ImageProcess - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/ImageProcess.res" /d "_DEBUG" /d "_AFXDLL" "D:\code\Source\ImageProcess\ImageProcess.rc"" 
+Creating temporary file "C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP16B.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/ImageProcess.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\code\Source\ImageProcess\ChildFrm.cpp"
+"D:\code\Source\ImageProcess\ConvoluteDlg.cpp"
+"D:\code\Source\ImageProcess\CqOctree.cpp"
+"D:\code\Source\ImageProcess\Dib.cpp"
+"D:\code\Source\ImageProcess\dibapi.cpp"
+"D:\code\Source\ImageProcess\EmbossmentDlg.cpp"
+"D:\code\Source\ImageProcess\ImageProcess.cpp"
+"D:\code\Source\ImageProcess\ImageProcessDoc.cpp"
+"D:\code\Source\ImageProcess\ImageProcessView.cpp"
+"D:\code\Source\ImageProcess\IP.cpp"
+"D:\code\Source\ImageProcess\MainFrm.cpp"
+"D:\code\Source\ImageProcess\SpreadDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP16B.tmp" 
+Creating temporary file "C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP16C.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/ImageProcess.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\code\Source\ImageProcess\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP16C.tmp" 
+Creating temporary file "C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP16D.tmp" with contents
+[
+winmm.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/ImageProcess.pdb" /debug /machine:I386 /out:"Debug/ImageProcess.exe" /pdbtype:sept 
+.\Debug\ChildFrm.obj
+.\Debug\ConvoluteDlg.obj
+.\Debug\CqOctree.obj
+.\Debug\Dib.obj
+.\Debug\dibapi.obj
+.\Debug\EmbossmentDlg.obj
+.\Debug\ImageProcess.obj
+.\Debug\ImageProcessDoc.obj
+.\Debug\ImageProcessView.obj
+.\Debug\IP.obj
+.\Debug\MainFrm.obj
+.\Debug\SpreadDlg.obj
+.\Debug\StdAfx.obj
+.\Debug\ImageProcess.res
+\code\Source\ImageLib\Debug\ImageLib.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP16D.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ChildFrm.cpp
+ConvoluteDlg.cpp
+CqOctree.cpp
+Dib.cpp
+dibapi.cpp
+EmbossmentDlg.cpp
+ImageProcess.cpp
+ImageProcessDoc.cpp
+ImageProcessView.cpp
+IP.cpp
+D:\code\Source\ImageProcess\IP.cpp(2496) : warning C4018: '<' : signed/unsigned mismatch
+D:\code\Source\ImageProcess\IP.cpp(2498) : warning C4018: '<' : signed/unsigned mismatch
+D:\code\Source\ImageProcess\IP.cpp(2635) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+D:\code\Source\ImageProcess\IP.cpp(2635) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+D:\code\Source\ImageProcess\IP.cpp(2635) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+D:\code\Source\ImageProcess\IP.cpp(2635) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+D:\code\Source\ImageProcess\IP.cpp(2651) : warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+D:\code\Source\ImageProcess\IP.cpp(2593) : warning C4101: 'v' : unreferenced local variable
+D:\code\Source\ImageProcess\IP.cpp(2592) : warning C4101: 'dst' : unreferenced local variable
+D:\code\Source\ImageProcess\IP.cpp(2590) : warning C4101: 'x' : unreferenced local variable
+D:\code\Source\ImageProcess\IP.cpp(2590) : warning C4101: 'y' : unreferenced local variable
+D:\code\Source\ImageProcess\IP.cpp(2590) : warning C4101: 'ir' : unreferenced local variable
+D:\code\Source\ImageProcess\IP.cpp(2737) : warning C4101: 'dst' : unreferenced local variable
+D:\code\Source\ImageProcess\IP.cpp(2847) : warning C4101: 'dst' : unreferenced local variable
+MainFrm.cpp
+SpreadDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+ImageProcess.exe - 0 error(s), 14 warning(s)
+<h3>
+--------------------Configuration: RLE - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP16F.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Release/RLE.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\code\Source\RLE\RLE.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP16F.tmp" 
+Creating temporary file "C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP170.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:no /pdb:"Release/RLE.pdb" /machine:I386 /out:"Release/RLE.exe" 
+.\Release\RLE.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP170.tmp"
+<h3>Output Window</h3>
+Compiling...
+RLE.c
+Linking...
+
+
+
+<h3>Results</h3>
+RLE.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: RLE - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP172.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/RLE.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\code\Source\RLE\RLE.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP172.tmp" 
+Creating temporary file "C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP173.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/RLE.pdb" /debug /machine:I386 /out:"Debug/RLE.exe" /pdbtype:sept 
+.\Debug\RLE.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP173.tmp"
+<h3>Output Window</h3>
+Compiling...
+RLE.c
+Linking...
+
+
+
+<h3>Results</h3>
+RLE.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: ShowDIB - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/ShowDIB.res" /d "NDEBUG" /d "_AFXDLL" "D:\code\Source\ShowDIB\ShowDIB.rc"" 
+Creating temporary file "C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP175.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/ShowDIB.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\code\Source\ShowDIB\ChildFrm.cpp"
+"D:\code\Source\ShowDIB\dibapi.cpp"
+"D:\code\Source\ShowDIB\MainFrm.cpp"
+"D:\code\Source\ShowDIB\ShowDIB.cpp"
+"D:\code\Source\ShowDIB\ShowDIBDoc.cpp"
+"D:\code\Source\ShowDIB\ShowDIBView.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP175.tmp" 
+Creating temporary file "C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP176.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/ShowDIB.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\code\Source\ShowDIB\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP176.tmp" 
+Creating temporary file "C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP177.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/ShowDIB.pdb" /machine:I386 /out:"Release/ShowDIB.exe" 
+.\Release\ChildFrm.obj
+.\Release\dibapi.obj
+.\Release\MainFrm.obj
+.\Release\ShowDIB.obj
+.\Release\ShowDIBDoc.obj
+.\Release\ShowDIBView.obj
+.\Release\StdAfx.obj
+.\Release\ShowDIB.res
+]
+Creating command line "link.exe @C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP177.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ChildFrm.cpp
+dibapi.cpp
+MainFrm.cpp
+ShowDIB.cpp
+ShowDIBDoc.cpp
+ShowDIBView.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+ShowDIB.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: ShowDIB - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/ShowDIB.res" /d "_DEBUG" /d "_AFXDLL" "D:\code\Source\ShowDIB\ShowDIB.rc"" 
+Creating temporary file "C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP179.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/ShowDIB.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\code\Source\ShowDIB\ChildFrm.cpp"
+"D:\code\Source\ShowDIB\dibapi.cpp"
+"D:\code\Source\ShowDIB\MainFrm.cpp"
+"D:\code\Source\ShowDIB\ShowDIB.cpp"
+"D:\code\Source\ShowDIB\ShowDIBDoc.cpp"
+"D:\code\Source\ShowDIB\ShowDIBView.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP179.tmp" 
+Creating temporary file "C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP17A.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/ShowDIB.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\code\Source\ShowDIB\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP17A.tmp" 
+Creating temporary file "C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP17B.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/ShowDIB.pdb" /debug /machine:I386 /out:"Debug/ShowDIB.exe" /pdbtype:sept 
+.\Debug\ChildFrm.obj
+.\Debug\dibapi.obj
+.\Debug\MainFrm.obj
+.\Debug\ShowDIB.obj
+.\Debug\ShowDIBDoc.obj
+.\Debug\ShowDIBView.obj
+.\Debug\StdAfx.obj
+.\Debug\ShowDIB.res
+]
+Creating command line "link.exe @C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP17B.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ChildFrm.cpp
+dibapi.cpp
+MainFrm.cpp
+ShowDIB.cpp
+ShowDIBDoc.cpp
+ShowDIBView.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+ShowDIB.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: TransformShow - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/TransformShow.res" /d "NDEBUG" /d "_AFXDLL" "D:\code\Source\TransformShow\TransformShow.rc"" 
+Creating temporary file "C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP17D.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/TransformShow.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\code\Source\TransformShow\CanvasDlg.cpp"
+"D:\code\Source\TransformShow\ChildFrm.cpp"
+"D:\code\Source\TransformShow\CqOctree.cpp"
+"D:\code\Source\TransformShow\Dib.cpp"
+"D:\code\Source\TransformShow\dibapi.cpp"
+"D:\code\Source\TransformShow\MainFrm.cpp"
+"D:\code\Source\TransformShow\RotateAngle.cpp"
+"D:\code\Source\TransformShow\ScaleDlg.cpp"
+"D:\code\Source\TransformShow\TransformShow.cpp"
+"D:\code\Source\TransformShow\TransformShowDoc.cpp"
+"D:\code\Source\TransformShow\TransformShowView.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP17D.tmp" 
+Creating temporary file "C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP17E.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/TransformShow.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\code\Source\TransformShow\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP17E.tmp" 
+Creating temporary file "C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP17F.tmp" with contents
+[
+winmm.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/TransformShow.pdb" /machine:I386 /out:"Release/TransformShow.exe" 
+.\Release\CanvasDlg.obj
+.\Release\ChildFrm.obj
+.\Release\CqOctree.obj
+.\Release\Dib.obj
+.\Release\dibapi.obj
+.\Release\MainFrm.obj
+.\Release\RotateAngle.obj
+.\Release\ScaleDlg.obj
+.\Release\StdAfx.obj
+.\Release\TransformShow.obj
+.\Release\TransformShowDoc.obj
+.\Release\TransformShowView.obj
+.\Release\TransformShow.res
+]
+Creating command line "link.exe @C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP17F.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+CanvasDlg.cpp
+ChildFrm.cpp
+CqOctree.cpp
+Dib.cpp
+dibapi.cpp
+MainFrm.cpp
+RotateAngle.cpp
+ScaleDlg.cpp
+TransformShow.cpp
+TransformShowDoc.cpp
+TransformShowView.cpp
+Generating Code...
+Linking...
+LINK : warning LNK4089: all references to "WINMM.dll" discarded by /OPT:REF
+
+
+
+<h3>Results</h3>
+TransformShow.exe - 0 error(s), 1 warning(s)
+<h3>
+--------------------Configuration: TransformShow - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/TransformShow.res" /d "_DEBUG" /d "_AFXDLL" "D:\code\Source\TransformShow\TransformShow.rc"" 
+Creating temporary file "C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP181.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/TransformShow.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\code\Source\TransformShow\CanvasDlg.cpp"
+"D:\code\Source\TransformShow\ChildFrm.cpp"
+"D:\code\Source\TransformShow\CqOctree.cpp"
+"D:\code\Source\TransformShow\Dib.cpp"
+"D:\code\Source\TransformShow\dibapi.cpp"
+"D:\code\Source\TransformShow\MainFrm.cpp"
+"D:\code\Source\TransformShow\RotateAngle.cpp"
+"D:\code\Source\TransformShow\ScaleDlg.cpp"
+"D:\code\Source\TransformShow\TransformShow.cpp"
+"D:\code\Source\TransformShow\TransformShowDoc.cpp"
+"D:\code\Source\TransformShow\TransformShowView.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP181.tmp" 
+Creating temporary file "C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP182.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/TransformShow.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\code\Source\TransformShow\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP182.tmp" 
+Creating temporary file "C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP183.tmp" with contents
+[
+winmm.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/TransformShow.pdb" /debug /machine:I386 /out:"Debug/TransformShow.exe" /pdbtype:sept 
+.\Debug\CanvasDlg.obj
+.\Debug\ChildFrm.obj
+.\Debug\CqOctree.obj
+.\Debug\Dib.obj
+.\Debug\dibapi.obj
+.\Debug\MainFrm.obj
+.\Debug\RotateAngle.obj
+.\Debug\ScaleDlg.obj
+.\Debug\StdAfx.obj
+.\Debug\TransformShow.obj
+.\Debug\TransformShowDoc.obj
+.\Debug\TransformShowView.obj
+.\Debug\TransformShow.res
+]
+Creating command line "link.exe @C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP183.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+CanvasDlg.cpp
+ChildFrm.cpp
+CqOctree.cpp
+Dib.cpp
+dibapi.cpp
+MainFrm.cpp
+RotateAngle.cpp
+ScaleDlg.cpp
+TransformShow.cpp
+TransformShowDoc.cpp
+TransformShowView.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+TransformShow.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: ViewDIB - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/ViewDIB.res" /d "NDEBUG" /d "_AFXDLL" "D:\code\Source\ViewDIB\ViewDIB.rc"" 
+Creating temporary file "C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP185.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/ViewDIB.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\code\Source\ViewDIB\ChildFrm.cpp"
+"D:\code\Source\ViewDIB\CqOctree.cpp"
+"D:\code\Source\ViewDIB\Dib.cpp"
+"D:\code\Source\ViewDIB\dibapi.cpp"
+"D:\code\Source\ViewDIB\MainFrm.cpp"
+"D:\code\Source\ViewDIB\ViewDIB.cpp"
+"D:\code\Source\ViewDIB\ViewDIBDoc.cpp"
+"D:\code\Source\ViewDIB\ViewDIBView.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP185.tmp" 
+Creating temporary file "C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP186.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/ViewDIB.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\code\Source\ViewDIB\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP186.tmp" 
+Creating temporary file "C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP187.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/ViewDIB.pdb" /machine:I386 /out:"Release/ViewDIB.exe" 
+.\Release\ChildFrm.obj
+.\Release\CqOctree.obj
+.\Release\Dib.obj
+.\Release\dibapi.obj
+.\Release\MainFrm.obj
+.\Release\StdAfx.obj
+.\Release\ViewDIB.obj
+.\Release\ViewDIBDoc.obj
+.\Release\ViewDIBView.obj
+.\Release\ViewDIB.res
+]
+Creating command line "link.exe @C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP187.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ChildFrm.cpp
+CqOctree.cpp
+Dib.cpp
+dibapi.cpp
+MainFrm.cpp
+ViewDIB.cpp
+ViewDIBDoc.cpp
+ViewDIBView.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+ViewDIB.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: ViewDIB - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/ViewDIB.res" /d "_DEBUG" /d "_AFXDLL" "D:\code\Source\ViewDIB\ViewDIB.rc"" 
+Creating temporary file "C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP189.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/ViewDIB.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\code\Source\ViewDIB\ChildFrm.cpp"
+"D:\code\Source\ViewDIB\CqOctree.cpp"
+"D:\code\Source\ViewDIB\Dib.cpp"
+"D:\code\Source\ViewDIB\dibapi.cpp"
+"D:\code\Source\ViewDIB\MainFrm.cpp"
+"D:\code\Source\ViewDIB\ViewDIB.cpp"
+"D:\code\Source\ViewDIB\ViewDIBDoc.cpp"
+"D:\code\Source\ViewDIB\ViewDIBView.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP189.tmp" 
+Creating temporary file "C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP18A.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/ViewDIB.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\code\Source\ViewDIB\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP18A.tmp" 
+Creating temporary file "C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP18B.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/ViewDIB.pdb" /debug /machine:I386 /out:"Debug/ViewDIB.exe" /pdbtype:sept 
+.\Debug\ChildFrm.obj
+.\Debug\CqOctree.obj
+.\Debug\Dib.obj
+.\Debug\dibapi.obj
+.\Debug\MainFrm.obj
+.\Debug\StdAfx.obj
+.\Debug\ViewDIB.obj
+.\Debug\ViewDIBDoc.obj
+.\Debug\ViewDIBView.obj
+.\Debug\ViewDIB.res
+]
+Creating command line "link.exe @C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP18B.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ChildFrm.cpp
+CqOctree.cpp
+Dib.cpp
+dibapi.cpp
+MainFrm.cpp
+ViewDIB.cpp
+ViewDIBDoc.cpp
+ViewDIBView.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+ViewDIB.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: ViewImage - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/ViewImage.res" /d "NDEBUG" /d "_AFXDLL" "D:\code\Source\ViewImage\ViewImage.rc"" 
+Creating temporary file "C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP18D.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/ViewImage.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\code\Source\ViewImage\ChildFrm.cpp"
+"D:\code\Source\ViewImage\CqOctree.cpp"
+"D:\code\Source\ViewImage\Dib.cpp"
+"D:\code\Source\ViewImage\dibapi.cpp"
+"D:\code\Source\ViewImage\Gif.cpp"
+"D:\code\Source\ViewImage\GIFAPI.CPP"
+"D:\code\Source\ViewImage\Huffman.cpp"
+"D:\code\Source\ViewImage\IP.cpp"
+"D:\code\Source\ViewImage\Jpeg.cpp"
+"D:\code\Source\ViewImage\MainFrm.cpp"
+"D:\code\Source\ViewImage\Pcx.cpp"
+"D:\code\Source\ViewImage\Tga.cpp"
+"D:\code\Source\ViewImage\Tif.cpp"
+"D:\code\Source\ViewImage\ViewImage.cpp"
+"D:\code\Source\ViewImage\ViewImageDoc.cpp"
+"D:\code\Source\ViewImage\ViewImageView.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP18D.tmp" 
+Creating temporary file "C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP18E.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/ViewImage.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\code\Source\ViewImage\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP18E.tmp" 
+Creating temporary file "C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP18F.tmp" with contents
+[
+Jpeglib2.lib winmm.lib libtiff.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/ViewImage.pdb" /machine:I386 /out:"Release/ViewImage.exe" 
+.\Release\ChildFrm.obj
+.\Release\CqOctree.obj
+.\Release\Dib.obj
+.\Release\dibapi.obj
+.\Release\Gif.obj
+.\Release\GIFAPI.OBJ
+.\Release\Huffman.obj
+.\Release\IP.obj
+.\Release\Jpeg.obj
+.\Release\MainFrm.obj
+.\Release\Pcx.obj
+.\Release\StdAfx.obj
+.\Release\Tga.obj
+.\Release\Tif.obj
+.\Release\ViewImage.obj
+.\Release\ViewImageDoc.obj
+.\Release\ViewImageView.obj
+.\Release\ViewImage.res
+]
+Creating command line "link.exe @C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP18F.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ChildFrm.cpp
+CqOctree.cpp
+Dib.cpp
+dibapi.cpp
+Gif.cpp
+GIFAPI.CPP
+Huffman.cpp
+IP.cpp
+D:\code\Source\ViewImage\IP.cpp(2496) : warning C4018: '<' : signed/unsigned mismatch
+D:\code\Source\ViewImage\IP.cpp(2498) : warning C4018: '<' : signed/unsigned mismatch
+D:\code\Source\ViewImage\IP.cpp(2635) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+D:\code\Source\ViewImage\IP.cpp(2635) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+D:\code\Source\ViewImage\IP.cpp(2635) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+D:\code\Source\ViewImage\IP.cpp(2635) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+D:\code\Source\ViewImage\IP.cpp(2651) : warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+D:\code\Source\ViewImage\IP.cpp(2593) : warning C4101: 'v' : unreferenced local variable
+D:\code\Source\ViewImage\IP.cpp(2592) : warning C4101: 'dst' : unreferenced local variable
+D:\code\Source\ViewImage\IP.cpp(2590) : warning C4101: 'x' : unreferenced local variable
+D:\code\Source\ViewImage\IP.cpp(2590) : warning C4101: 'y' : unreferenced local variable
+D:\code\Source\ViewImage\IP.cpp(2590) : warning C4101: 'ir' : unreferenced local variable
+D:\code\Source\ViewImage\IP.cpp(2737) : warning C4101: 'dst' : unreferenced local variable
+D:\code\Source\ViewImage\IP.cpp(2847) : warning C4101: 'dst' : unreferenced local variable
+Jpeg.cpp
+MainFrm.cpp
+Pcx.cpp
+Tga.cpp
+Tif.cpp
+D:\code\Source\ViewImage\Tif.cpp(669) : warning C4244: '=' : conversion from 'double' to 'unsigned long', possible loss of data
+D:\code\Source\ViewImage\Tif.cpp(679) : warning C4244: '=' : conversion from 'double' to 'unsigned long', possible loss of data
+D:\code\Source\ViewImage\Tif.cpp(701) : warning C4244: '=' : conversion from 'double' to 'unsigned long', possible loss of data
+D:\code\Source\ViewImage\Tif.cpp(702) : warning C4244: '=' : conversion from 'double' to 'unsigned long', possible loss of data
+D:\code\Source\ViewImage\Tif.cpp(703) : warning C4244: '=' : conversion from 'double' to 'unsigned long', possible loss of data
+ViewImage.cpp
+ViewImageDoc.cpp
+ViewImageView.cpp
+Generating Code...
+Linking...
+LINK : warning LNK4098: defaultlib "LIBC" conflicts with use of other libs; use /NODEFAULTLIB:library
+LINK : warning LNK4089: all references to "WINMM.dll" discarded by /OPT:REF
+
+
+
+<h3>Results</h3>
+ViewImage.exe - 0 error(s), 21 warning(s)
+<h3>
+--------------------Configuration: ViewImage - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/ViewImage.res" /d "_DEBUG" /d "_AFXDLL" "D:\code\Source\ViewImage\ViewImage.rc"" 
+Creating temporary file "C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP191.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/ViewImage.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\code\Source\ViewImage\ChildFrm.cpp"
+"D:\code\Source\ViewImage\CqOctree.cpp"
+"D:\code\Source\ViewImage\Dib.cpp"
+"D:\code\Source\ViewImage\dibapi.cpp"
+"D:\code\Source\ViewImage\Gif.cpp"
+"D:\code\Source\ViewImage\GIFAPI.CPP"
+"D:\code\Source\ViewImage\Huffman.cpp"
+"D:\code\Source\ViewImage\IP.cpp"
+"D:\code\Source\ViewImage\Jpeg.cpp"
+"D:\code\Source\ViewImage\MainFrm.cpp"
+"D:\code\Source\ViewImage\Pcx.cpp"
+"D:\code\Source\ViewImage\Tga.cpp"
+"D:\code\Source\ViewImage\Tif.cpp"
+"D:\code\Source\ViewImage\ViewImage.cpp"
+"D:\code\Source\ViewImage\ViewImageDoc.cpp"
+"D:\code\Source\ViewImage\ViewImageView.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP191.tmp" 
+Creating temporary file "C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP192.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/ViewImage.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\code\Source\ViewImage\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP192.tmp" 
+Creating temporary file "C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP193.tmp" with contents
+[
+Jpeglib2.lib winmm.lib libtiff.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/ViewImage.pdb" /debug /machine:I386 /out:"Debug/ViewImage.exe" /pdbtype:sept 
+.\Debug\ChildFrm.obj
+.\Debug\CqOctree.obj
+.\Debug\Dib.obj
+.\Debug\dibapi.obj
+.\Debug\Gif.obj
+.\Debug\GIFAPI.OBJ
+.\Debug\Huffman.obj
+.\Debug\IP.obj
+.\Debug\Jpeg.obj
+.\Debug\MainFrm.obj
+.\Debug\Pcx.obj
+.\Debug\StdAfx.obj
+.\Debug\Tga.obj
+.\Debug\Tif.obj
+.\Debug\ViewImage.obj
+.\Debug\ViewImageDoc.obj
+.\Debug\ViewImageView.obj
+.\Debug\ViewImage.res
+]
+Creating command line "link.exe @C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP193.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ChildFrm.cpp
+CqOctree.cpp
+Dib.cpp
+dibapi.cpp
+Gif.cpp
+GIFAPI.CPP
+Huffman.cpp
+IP.cpp
+D:\code\Source\ViewImage\IP.cpp(2496) : warning C4018: '<' : signed/unsigned mismatch
+D:\code\Source\ViewImage\IP.cpp(2498) : warning C4018: '<' : signed/unsigned mismatch
+D:\code\Source\ViewImage\IP.cpp(2635) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+D:\code\Source\ViewImage\IP.cpp(2635) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+D:\code\Source\ViewImage\IP.cpp(2635) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+D:\code\Source\ViewImage\IP.cpp(2635) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+D:\code\Source\ViewImage\IP.cpp(2651) : warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+D:\code\Source\ViewImage\IP.cpp(2593) : warning C4101: 'v' : unreferenced local variable
+D:\code\Source\ViewImage\IP.cpp(2592) : warning C4101: 'dst' : unreferenced local variable
+D:\code\Source\ViewImage\IP.cpp(2590) : warning C4101: 'x' : unreferenced local variable
+D:\code\Source\ViewImage\IP.cpp(2590) : warning C4101: 'y' : unreferenced local variable
+D:\code\Source\ViewImage\IP.cpp(2590) : warning C4101: 'ir' : unreferenced local variable
+D:\code\Source\ViewImage\IP.cpp(2737) : warning C4101: 'dst' : unreferenced local variable
+D:\code\Source\ViewImage\IP.cpp(2847) : warning C4101: 'dst' : unreferenced local variable
+Jpeg.cpp
+MainFrm.cpp
+Pcx.cpp
+Tga.cpp
+Tif.cpp
+D:\code\Source\ViewImage\Tif.cpp(669) : warning C4244: '=' : conversion from 'double' to 'unsigned long', possible loss of data
+D:\code\Source\ViewImage\Tif.cpp(679) : warning C4244: '=' : conversion from 'double' to 'unsigned long', possible loss of data
+D:\code\Source\ViewImage\Tif.cpp(701) : warning C4244: '=' : conversion from 'double' to 'unsigned long', possible loss of data
+D:\code\Source\ViewImage\Tif.cpp(702) : warning C4244: '=' : conversion from 'double' to 'unsigned long', possible loss of data
+D:\code\Source\ViewImage\Tif.cpp(703) : warning C4244: '=' : conversion from 'double' to 'unsigned long', possible loss of data
+ViewImage.cpp
+ViewImageDoc.cpp
+ViewImageView.cpp
+Generating Code...
+Linking...
+LINK : warning LNK4098: defaultlib "LIBC" conflicts with use of other libs; use /NODEFAULTLIB:library
+LINK : warning LNK4098: defaultlib "MSVCRT" conflicts with use of other libs; use /NODEFAULTLIB:library
+
+
+
+<h3>Results</h3>
+ViewImage.exe - 0 error(s), 21 warning(s)
+<h3>
+--------------------Configuration: lzw - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP195.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Release/lzw.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\code\Source\LZW\lzw.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP195.tmp" 
+Creating temporary file "C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP196.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:no /pdb:"Release/lzw.pdb" /machine:I386 /out:"Release/lzw.exe" 
+.\Release\lzw.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP196.tmp"
+<h3>Output Window</h3>
+Compiling...
+lzw.c
+Linking...
+
+
+
+<h3>Results</h3>
+lzw.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: lzw - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP198.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/lzw.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\code\Source\LZW\lzw.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP198.tmp" 
+Creating temporary file "C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP199.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/lzw.pdb" /debug /machine:I386 /out:"Debug/lzw.exe" /pdbtype:sept 
+.\Debug\lzw.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\dzhou\LOCALS~1\Temp\RSP199.tmp"
+<h3>Output Window</h3>
+Compiling...
+lzw.c
+Linking...
+
+
+
+<h3>Results</h3>
+lzw.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

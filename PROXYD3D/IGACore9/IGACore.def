@@ -1,0 +1,19 @@
+LIBRARY	"IGACore"
+
+
+EXPORTS
+	IGAStartup @1
+	IGAShutdown @2
+	ExportFun1 @3
+	ExportFun2 @4
+	ExportFun3 @5
+	ExportFun4 @6
+	ExportFun5 @7
+	ExportFun6 @8
+	ExportFun7 @9
+	ExportFun8 @10
+	ExportFun9 @11
+	ExportFun10 @12
+	ExportFun11 @13
+	ExportFun12 @14
+	ExportFun13 @15

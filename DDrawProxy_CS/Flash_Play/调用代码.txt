@@ -1,0 +1,10 @@
+// 				PROCESS_INFORMATION    processInfo;
+// 				memset(&processInfo,0,sizeof(PROCESS_INFORMATION));
+// 				
+// 				STARTUPINFO   sa  ;
+// 				memset(&sa,0,sizeof(STARTUPINFO));
+// 				sa.cb =sizeof(STARTUPINFO);
+// 				
+// 				
+// 				::CreateProcess(NULL,"c:\\123.exe  c:\\001.swf;4;300;300;",NULL,NULL,FALSE,0,NULL,NULL,&sa,&processInfo);
+//

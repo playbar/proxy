@@ -1,0 +1,105 @@
+/************************************************************************/
+/*                                                                      */
+/************************************************************************/
+class ExIDirect3DSwapChain9 : public IDirect3DSwapChain9
+{
+public:
+	ExIDirect3DSwapChain9(IDirect3DSwapChain9 *pOriginalChain);
+	HRESULT __stdcall QueryInterface(REFIID riid, void **ppvObj);
+	ULONG __stdcall AddRef();
+	ULONG __stdcall Release();
+	HRESULT __stdcall Present(CONST RECT* pSourceRect, CONST RECT* pDestRect, HWND hDestWindowOverride, CONST RGNDATA *pDirtyRegion,DWORD Flags);
+	HRESULT __stdcall GetFrontBufferData(IDirect3DSurface9 *pDestSurface);
+	HRESULT __stdcall GetBackBuffer(UINT Index, D3DBACKBUFFER_TYPE Type, IDirect3DSurface9 **ppBackSurface);
+	HRESULT __stdcall GetRasterStatus(D3DRASTER_STATUS *pRasterStatus);
+	HRESULT __stdcall GetDisplayMode(D3DDISPLAYMODE* pMode);
+	HRESULT __stdcall GetDevice(IDirect3DDevice9 **ppDevice);
+	HRESULT __stdcall GetPresentParameters(D3DPRESENT_PARAMETERS* pPresentationParameters);
+private:
+	IDirect3DSwapChain9	*m_pOriginalChain;
+};
+
+
+/************************************************************************/
+/*                                                                      */
+/************************************************************************/
+ExIDirect3DSwapChain9::ExIDirect3DSwapChain9(IDirect3DSwapChain9 *pOriginalChain)
+	:m_pOriginalChain(pOriginalChain)
+{
+
+}
+
+HRESULT __stdcall ExIDirect3DSwapChain9::QueryInterface(REFIID riid, void **ppvObj)
+{
+	HRESULT res = m_pOriginalChain->QueryInterface(riid, ppvObj);
+	if (res == NOERROR)
+	{
+		*ppvObj = this;
+	}
+	return	res;
+}
+ULONG __stdcall ExIDirect3DSwapChain9::AddRef()
+{
+	return	m_pOriginalChain->AddRef();
+}
+ULONG __stdcall ExIDirect3DSwapChain9::Release()
+{
+	ULONG count = m_pOriginalChain->Release();
+	if(!count)
+	{
+		delete	this;
+		return	0;
+	}
+	return	count;
+}
+HRESULT __stdcall ExIDirect3DSwapChain9::Present(CONST RECT* pSourceRect, CONST RECT* pDestRect, HWND hDestWindowOverride, CONST RGNDATA *pDirtyRegion, DWORD Flags)
+{
+//	TRACE_DX(L"ExIDirect3DSwapChain9::Present(%p, %p, %p, %p, %#x)...", pSourceRect, pDestRect, hDestWindowOverride, hDestWindowOverride, Flags);
+
+	return	m_pOriginalChain->Present(pSourceRect, pDestRect, hDestWindowOverride, pDirtyRegion,Flags);
+}
+HRESULT __stdcall ExIDirect3DSwapChain9::GetFrontBufferData(IDirect3DSurface9 *pDestSurface)
+{
+	TRACE_DX(L"ExIDirect3DSwapChain9::GetFrontBufferData(%p)...", pDestSurface);
+	return	m_pOriginalChain->GetFrontBufferData(pDestSurface);
+}
+HRESULT __stdcall ExIDirect3DSwapChain9::GetRasterStatus(D3DRASTER_STATUS *pRasterStatus)
+{
+	TRACE_DX(L"ExIDirect3DSwapChain9::GetRasterStatus(%p)...", pRasterStatus);
+	return	m_pOriginalChain->GetRasterStatus(pRasterStatus);
+}
+HRESULT __stdcall ExIDirect3DSwapChain9::GetDisplayMode(D3DDISPLAYMODE* pMode)
+{
+	TRACE_DX(L"ExIDirect3DSwapChain9::GetDisplayMode(%p)...", pMode);
+	return	m_pOriginalChain->GetDisplayMode(pMode);
+}
+HRESULT __stdcall ExIDirect3DSwapChain9::GetDevice(IDirect3DDevice9 **ppDevice)
+{
+	TRACE_DX(L"ExIDirect3DSwapChain9::GetDevice(%p)...", *ppDevice);
+return	m_pOriginalChain->GetDevice(ppDevice);
+}
+HRESULT __stdcall ExIDirect3DSwapChain9::GetPresentParameters(D3DPRESENT_PARAMETERS* pPresentationParameters)
+{
+	TRACE_DX(L"ExIDirect3DSwapChain9::GetPresentParameters(%p)...", pPresentationParameters);
+	return	m_pOriginalChain->GetPresentParameters(pPresentationParameters);
+}
+
+HRESULT __stdcall ExIDirect3DSwapChain9::GetBackBuffer(UINT Index, D3DBACKBUFFER_TYPE Type, IDirect3DSurface9 **ppBackSurface)
+{
+	TRACE_DX(L"ExIDirect3DSwapChain9::GetBackBuffer(%u, %#x, %p)...", Index, Type, *ppBackSurface);
+	return	m_pOriginalChain->GetBackBuffer(Index, Type, ppBackSurface);
+}
+
+////
+////
+HRESULT ExIDirect3DDevice::CreateAdditionalSwapChain(D3DPRESENT_PARAMETERS* pPresentationParameters,IDirect3DSwapChain9** pSwapChain)  
+{
+	TRACE_DX(L"ExIDirect3DDevice::CreateAdditionalSwapChain(%p), (%p, %p) ...",pPresentationParameters, this, m_pIDirect3DDevice9);
+	HRESULT res= (m_pIDirect3DDevice9->CreateAdditionalSwapChain(pPresentationParameters,pSwapChain));
+	if(SUCCEEDED(res))
+	{
+		ExIDirect3DSwapChain9	*p	= new ExIDirect3DSwapChain9(*pSwapChain);
+		*pSwapChain	= p;
+	}
+	return	res;
+}

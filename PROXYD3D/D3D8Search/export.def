@@ -1,0 +1,7 @@
+LIBRARY	EmptyProject
+
+EXPORTS
+	GUISDK_Init			@1
+	GUISDK_Render		@2
+	GUISDK_Destory		@3
+	GUISDK_InitEx		@4

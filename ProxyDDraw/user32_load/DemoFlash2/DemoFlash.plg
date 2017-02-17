@@ -1,0 +1,48 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: DemoFlash - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPC5.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "DEMOFLASH_EXPORTS" /Fp"Release/DemoFlash.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\×£Õñ·É\np\user32¼ÓÔØ\DemoFlash2\DemoFlash.cpp"
+"E:\×£Õñ·É\np\user32¼ÓÔØ\DemoFlash2\IGAWin.cpp"
+"E:\×£Õñ·É\np\user32¼ÓÔØ\DemoFlash2\z_FileIni.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPC5.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPC6.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "DEMOFLASH_EXPORTS" /Fp"Release/DemoFlash.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\×£Õñ·É\np\user32¼ÓÔØ\DemoFlash2\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPC6.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPC7.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:no /pdb:"Release/DemoFlash.pdb" /machine:I386 /out:"Release/DemoFlash.dll" /implib:"Release/DemoFlash.lib" 
+".\Release\DemoFlash.obj"
+".\Release\IGAWin.obj"
+".\Release\StdAfx.obj"
+".\Release\z_FileIni.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPC7.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+DemoFlash.cpp
+IGAWin.cpp
+z_FileIni.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+DemoFlash.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

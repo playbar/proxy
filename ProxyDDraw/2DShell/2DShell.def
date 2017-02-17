@@ -1,0 +1,5 @@
+LIBRARY "2DShell"
+EXPORTS	
+	IGA2DStartup               @01
+	IGA2DStartupEx             @02
+	

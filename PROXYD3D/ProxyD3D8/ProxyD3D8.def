@@ -1,0 +1,8 @@
+; ProxyD3D8.def : Declares the module parameters for the DLL.
+
+LIBRARY      "ProxyD3D8"
+DESCRIPTION  'ProxyD3D8 Windows Dynamic Link Library'
+
+EXPORTS
+    ; Explicit exports can go here
+    InitD3D8         @1

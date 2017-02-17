@@ -1,0 +1,4 @@
+2009-01-20 20:58:56 [E1C] [0] CFtpDownLog::InitData OK!
+2009-01-21 18:01:36 [C58] [0] CFtpDownLog::InitData OK!
+2009-01-21 18:15:20 [E38] [0] CFtpDownLog::InitData OK!
+2009-01-22 12:22:37 [E38] [20] SaveData Failed

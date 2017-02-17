@@ -1,0 +1,72 @@
+// IE_DDS_Control.idl : type library source for ActiveX Control project.
+
+// This file will be processed by the MIDL compiler tool to
+// produce the type library (IE_DDS_Control.tlb) that will become a resource in
+// IE_DDS_Control.ocx.
+
+#include <olectl.h>
+#include <idispids.h>
+
+[ uuid(151E31EB-EFD8-4EF9-9874-901A915356ED), version(1.0),
+  helpfile("IE_DDS_Control.hlp"),
+  helpstring("IE_DDS_Control ActiveX Control module"),
+  control ]
+
+library IE_DDS_ControlLib
+{
+	importlib(STDOLE_TLB);
+
+	//[
+	//	object,
+	//	uuid(A69CF1DD-1F87-4F23-A428-697A5AFC658F),
+	//	dual,
+	//	helpstring("ICPServer Interface"),
+	//	pointer_default(unique)
+	//]
+	//interface ICPServer : IDispatch
+	//{
+	//	[propget, id(1), helpstring("property PenColor")] HRESULT PenColor([out, retval] BSTR *pVal);
+	//	[propput, id(1), helpstring("property PenColor")] HRESULT PenColor([in] BSTR newVal);
+	//};
+
+
+	//  Primary dispatch interface for CIE_DDS_ControlCtrl
+	[ uuid(A43097A4-DC8C-4527-A914-110FB605C70B),
+	  helpstring("Dispatch interface for IE_DDS_Control Control")]
+	dispinterface _DIE_DDS_Control
+	{
+		properties:
+			[id(110)] ULONG ID;    
+			[id(111)] BSTR NAME;  
+			[id(113) , helpstring("property DDSFileName")] BSTR DDSFileName;
+
+		methods:
+			[propget, id(1), helpstring("property PenColor")] HRESULT PenColor([out, retval] BSTR *pVal);
+			[propput, id(1), helpstring("property PenColor")] HRESULT PenColor([in] BSTR newVal);
+
+			[id(DISPID_ABOUTBOX)] void AboutBox();
+			[id(112), helpstring("method GetFileName")] HRESULT GetDDSFileName(BSTR bstrFileName);
+	};
+
+	//  Event dispatch interface for CIE_DDS_ControlCtrl
+
+	[ uuid(B650314E-C5F7-488F-91CD-1B03FBD44F8D),
+	  helpstring("Event interface for IE_DDS_Control Control") ]
+	dispinterface _DIE_DDS_ControlEvents
+	{
+		properties:
+			//  Event interface has no properties
+
+		methods:
+	};
+	//  Class information for CIE_DDS_ControlCtrl
+
+	[ uuid(F49A71F8-7732-49ED-BDBB-9D9B8CFBFEE5),
+	  helpstring("IE_DDS_Control Control"), control ]
+	coclass IE_DDS_Control
+	{
+		[default] dispinterface _DIE_DDS_Control;
+		[default, source] dispinterface _DIE_DDS_ControlEvents;
+	};
+
+};

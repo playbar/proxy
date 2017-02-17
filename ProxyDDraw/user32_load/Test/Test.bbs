@@ -1,0 +1,5 @@
+[Batch Build]
+DemoFlash - Win32 Debug=1
+DemoFlash - Win32 Release=1
+Test - Win32 Debug=1
+Test - Win32 Release=1

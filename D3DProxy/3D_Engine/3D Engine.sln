@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3D Engine", "3D Engine.vcproj", "{D1BC79E8-8F96-4D07-B7AC-D33CA8C4DD51}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+		Unicode Debug|Win32 = Unicode Debug|Win32
+		Unicode Release|Win32 = Unicode Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1BC79E8-8F96-4D07-B7AC-D33CA8C4DD51}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D1BC79E8-8F96-4D07-B7AC-D33CA8C4DD51}.Debug|Win32.Build.0 = Debug|Win32
+		{D1BC79E8-8F96-4D07-B7AC-D33CA8C4DD51}.Release|Win32.ActiveCfg = Release|Win32
+		{D1BC79E8-8F96-4D07-B7AC-D33CA8C4DD51}.Release|Win32.Build.0 = Release|Win32
+		{D1BC79E8-8F96-4D07-B7AC-D33CA8C4DD51}.Unicode Debug|Win32.ActiveCfg = Unicode Debug|Win32
+		{D1BC79E8-8F96-4D07-B7AC-D33CA8C4DD51}.Unicode Debug|Win32.Build.0 = Unicode Debug|Win32
+		{D1BC79E8-8F96-4D07-B7AC-D33CA8C4DD51}.Unicode Release|Win32.ActiveCfg = Unicode Release|Win32
+		{D1BC79E8-8F96-4D07-B7AC-D33CA8C4DD51}.Unicode Release|Win32.Build.0 = Unicode Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

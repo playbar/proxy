@@ -1,0 +1,6 @@
+LIBRARY	gui9
+
+EXPORTS
+	OnGUIInit	@1
+	OnGUIRender @2
+	OnGUIDestory @3

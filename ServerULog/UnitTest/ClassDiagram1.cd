@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CAboutDlg" Collapsed="true">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAhBAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>UnitTestDlg.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CHandleClientEventTestCase" Collapsed="true">
+    <Position X="3.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAGAIAAAAAAAAAAAAAAAAIAAEAKAAAEAAAAAAAAA=</HashCode>
+      <FileName>HandleClientEventTestCase.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CHandleEventHookTestCase" Collapsed="true">
+    <Position X="5.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABACAIAAAAAAIAAAAAAAAAIAAAACAAAEAgAAAAACA=</HashCode>
+      <FileName>HandleEventHookTestCase.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CUnitTestApp" Collapsed="true">
+    <Position X="1" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgBAAAAAAAAAQAQAAAAAAAAAAAA=</HashCode>
+      <FileName>UnitTest.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CUnitTestDlg" Collapsed="true">
+    <Position X="3.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EACAAAEAAAAAAAgAAhhAAAAAAAAAAAQAAAAAAAAQAAA=</HashCode>
+      <FileName>UnitTestDlg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="RFTPEventStr" Collapsed="true">
+    <Position X="3.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAIAAAACgIAAAAAAAAAIEgAAAAAAAEAAISkgAEA=</HashCode>
+      <FileName>e:\Whoyo\trunk\ServerULog\ServerULog\ServerULog.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="RClientEventStr" Collapsed="true">
+    <Position X="0.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABABAAAAAAAAAAAAAAEAAACIEgAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>e:\Whoyo\trunk\ServerULog\ServerULog\ServerULog.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="SimSun" Size="8.83" />
+</ClassDiagram>
